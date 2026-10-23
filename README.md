@@ -17,8 +17,8 @@ parts); red: the recent path of its centre of gravity.*
 |---|---|
 | Main code repository | [KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition](https://github.com/KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition) (private until the report has been marked; ask a team member for access) |
 | Poster (Poster Day, 29 October 2026) | [poster/COS700_Poster.pdf](poster/COS700_Poster.pdf) |
-| Research report | Will be added to [report/](report/) once it has been marked |
-| Best evolved creatures | [genotypes/best_phase1.gen](genotypes/best_phase1.gen) (open in Framsticks, see below) |
+| Research report | [report/COS700_Research_Report.pdf](report/COS700_Research_Report.pdf) |
+| Best evolved creatures | [Phase 1](genotypes/best_phase1.gen) and [Phase 3](genotypes/best_phase3.gen) genotypes (open in Framsticks, see below) |
 
 ## In one minute
 
@@ -89,14 +89,19 @@ graph-only hybrid crowding (w = 0) were the weakest choices.
 ## Watch the creatures yourself
 
 1. Download Framsticks from <https://www.framsticks.com> (version 5.5 was used).
-2. Download [genotypes/best_phase1.gen](genotypes/best_phase1.gen).
-3. In Framsticks: **File → Open…** and choose the file. Each genotype is named
-   *task, encoding, algorithm, fitness, run*, e.g. `jump f0 hybrid 5.573 r4`.
+2. Download [genotypes/best_phase1.gen](genotypes/best_phase1.gen) (72 creatures, flat
+   reference world) or [genotypes/best_phase3.gen](genotypes/best_phase3.gen) (92 creatures
+   from the 14 reconstructed competition-style worlds).
+3. In Framsticks: **File → Open…** and choose the file. Phase 1 names follow
+   *task, encoding, algorithm, fitness, run*, e.g. `jump f0 hybrid 5.573 r4`; Phase 3 names
+   start with the setting, e.g. `S07 vel f0 adaptive 19.172 r8`.
 4. Select a genotype, add it to the world and start the simulation to watch it move.
 
-The file has the best run of every task × encoding × algorithm combination from Phase 1
-(72 creatures). Our experiments used a lifespan of Energy0 = 2500; Framsticks' default world
-gives creatures a longer life, so they may keep moving for longer than in our runs.
+Each file holds the best run of every task × encoding × algorithm combination (and, for
+Phase 3, every setting). Our experiments used a lifespan of Energy0 = 2500; Framsticks' default
+world gives creatures a longer life, so they may keep moving for longer than in our runs. A
+Phase 3 creature behaves as it did during evolution only in its own world (gravity, water,
+terrain): [genotypes/README.md](genotypes/README.md) lists the settings to use.
 
 ## Acknowledgements
 

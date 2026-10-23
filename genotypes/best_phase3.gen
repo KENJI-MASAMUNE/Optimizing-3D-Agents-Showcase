@@ -1,0 +1,2168 @@
+org:
+name:S11 dist f0 adaptive 75.748 r12
+info:~
+phase 3  run_id S11_hill_distance__adaptive_de_nsga2__f0__comp_distance__r12_s1054
+seed 1054  best_fitness 75.74814385174246
+evaluations 21376  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+//0
+p:1.69, 0.981, -0.255, fr=1.193, ing=0.311
+p:1.6753561866990543, -0.9404783596200473, 0.298991436977015
+p:2.653, -1.847, -1.047
+p:1.056, -0.856, 0.209, fr=0.703, ing=0.205
+p:0.01, -2.231, 0.468, ing=0.212
+j:0, 1, stif=0.949, rotstif=0.824
+j:3, 0, stif=0.893, rotstif=0.942
+j:3, 1, stif=0.94, rotstif=0.934
+j:2, 1
+j:4, 3
+n:j=1, d="|:p=0.547, r=0.977"
+n:p=0, d="Gpart:ry=-2.587, rz=0.427"
+n:j=0, d=|
+c:0, 1, 2.127
+c:2, 1, -3.652~
+
+org:
+name:S12 dist f0 adaptive 98.714 r11
+info:~
+phase 3  run_id S12_shallow_distance__adaptive_de_nsga2__f0__comp_distance__r11_s1053
+seed 1053  best_fitness 98.71369005914848
+evaluations 20581  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+//0
+p:-0.315, 0.172, 0.81
+p:-0.599, 0.02, 0.566, fr=0.787, ing=0.436
+p:0.08, -1.235, 1.848, fr=0.916, ing=0.161
+p:-1.62, 0.519, -0.656, fr=0.335, ing=0.739
+p:-0.774, -0.739, 3.358, ing=0.358
+j:3, 1
+j:0, 2, stif=0.955, rotstif=0.828
+j:2, 1, rotstif=0.841
+j:4, 2, rotstif=0.97
+n:j=2, d=@:p=0.888
+n:p=1, d="Gpart:ry=-1.979, rz=1.186"
+n:j=1, d=@:p=0.983
+n:d=N:in=0.705
+n:d=N:in=0.705
+c:0, 1, -10.544
+c:2, 3, 6.877
+c:3, 1, 2.21
+c:3, 3, -1.233
+c:4, 1, 2.21
+c:4, 3, -1.342
+c:4, 4, 2.288~
+
+org:
+name:S11 dist f0 baseline 60.857 r11
+info:~
+phase 3  run_id S11_hill_distance__nsga2_baseline__f0__comp_distance__r11_s1053
+seed 1053  best_fitness 60.85696123867182
+evaluations 20380  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+//0
+p:-0.9892898514390942, 0.2994130320331463, -0.23229429433618493, fr=1.213, ing=0.776
+p:-0.6595658962885756, 0.38622680997082237, -0.2931772738573786
+p:-0.399, -1.56, -0.672, fr=0.921
+j:2, 0, stif=0.462, rotstif=0.832
+j:1, 2, stif=0.934
+n:j=0, d=@:p=0.765
+n:p=0, d="Gpart:ry=-1.979, rz=-0.422"
+n:d="N:fo=0.051, si=2.573"
+c:0, 1, -18.026~
+
+org:
+name:S12 dist f0 baseline 111.294 r8
+info:~
+phase 3  run_id S12_shallow_distance__nsga2_baseline__f0__comp_distance__r08_s1050
+seed 1050  best_fitness 111.29370578620465
+evaluations 22139  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+//0
+p:0.5497510875211408, 0.5941491456684125, 1.1827695538034706, fr=0.192, ing=0.105
+p:0.269, 0.539, 1.053, fr=0.492, ing=0.373
+p:0.917, 0.603, -0.783, fr=0.139
+p:0.43, 0.358, 0.091, ing=0.031
+p:0.306, 0.604, 1.109
+p:0.073, 0.241, 0.94, fr=1.359, ing=0.587
+p:0.005, -0.798, 0.935, fr=0.272, ing=0.44
+j:2, 0
+j:6, 0, stif=0.873
+j:3, 6
+j:2, 5, stif=0.893, rotstif=0.853
+j:0, 1, stif=0.747, rotstif=0.9
+j:4, 1
+n:j=3, d=@:p=0.657
+n:p=0, d=Gpart:rz=1.87
+n:j=2, d=@:p=0.774
+c:0, 1, 2.134~
+
+org:
+name:S11 dist f0 simpleEA 55.550 r14
+info:~
+phase 3  run_id S11_hill_distance__simple_ea__f0__comp_distance__r14_s1056
+seed 1056  best_fitness 55.55012183051475
+evaluations 26877  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+//0
+p:1.878, 0.783, -0.638, fr=0.691, ing=0.269
+p:2.209, 0.426, -0.836, fr=0.783, ing=0.221
+p:1.2686851234582144, -0.052486814528647674, 0.5898181435443239, fr=3.645, ing=0.77
+p:1.287, 0.042, 0.183, fr=0.011, ing=0.194
+p:-0.005, -0.332, -0.009, fr=0.686, ing=0.021
+p:0.232, -0.299, -1.03, fr=1.716, ing=0.086
+p:-0.304, -0.333, 1.745, fr=1.712, ing=0.478
+j:0, 3, stif=0.645, rotstif=0.993
+j:1, 0, stif=0.96, rotstif=0.724
+j:5, 2, stif=0.821, rotstif=0.808
+j:3, 5, stif=0.791, rotstif=0.546
+j:4, 5, stif=0.476, rotstif=0.564
+j:6, 4, stif=0.733, rotstif=0.904
+n:j=2, d=G
+n:j=3, d=@
+n:j=2, d=G
+n:j=4, d=|:r=0.856
+n:p=0, d="T:r=0.959, ry=-2.328, rz=-0.338"
+n:p=1, d="Gpart:ry=0.874, rz=-3.592"
+n:j=5, d=|:r=0.956
+n:p=0, d="Gpart:ry=-0.899, rz=-0.249"
+n:p=4, d="T:r=0.849, rz=-0.626"
+n:p=5, d=Gpart:ry=2.966
+n:p=1, d=T:ry=2.858
+n:p=0, d=S
+n:p=0, d=Gpart:rz=0.424
+n:d=*
+n:j=4, d=G
+n:d=*
+n:d=*
+n:p=5, d=T
+n:d="N:fo=0.189, si=-999.0, s=0.06"
+n:p=6, d=S
+c:1, 0, -0.88
+c:3, 2, 0.65
+c:6, 4, 0.542
+c:18, 5, -2.271
+c:18, 9, -0.81
+c:18, 7, 1.052
+c:18, 2, -0.637
+c:18, 12, 0.28
+c:18, 13, -2.156~
+
+org:
+name:S12 dist f0 simpleEA 85.995 r18
+info:~
+phase 3  run_id S12_shallow_distance__simple_ea__f0__comp_distance__r18_s1060
+seed 1060  best_fitness 85.99541395545832
+evaluations 27067  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+//0
+p:0.041, -0.495, 2.23, ing=0.287
+p:-0.307, -2.144, 0.222, ing=0.105
+p:0.037, -1.518, 0.753, fr=0.31, ing=0.344
+p:-0.014036614512373147, -0.8445571374383807, 0.5718488808243949, fr=3.185, ing=0.943
+p:0.961, 0.873, 0.258, fr=2.562, ing=0.761
+p:0.653, -0.214, 0.126, fr=0.241, ing=0.208
+p:0.19217952576708752, -0.9589058775846784, 0.029448093267656822, fr=0.778, ing=0.557
+j:0, 3, rotstif=0.416
+j:1, 6, stif=0.741, rotstif=0.977
+j:2, 1, rotstif=0.974
+j:4, 6, stif=0.502, rotstif=0.664
+j:5, 6, stif=0.862, rotstif=0.546
+j:3, 4, stif=0.988, rotstif=0.537
+n:j=0, d=|:r=0.877
+n:j=0, d=G
+n:p=0, d=Gpart
+n:p=3, d=S
+n:j=5, d=G
+n:j=3, d=@:p=0.956
+n:p=5, d=Gpart:rz=0.7
+n:d="N:fo=0.503, s=0.012"
+n:p=3, d=T
+n:d="N:in=0.759, fo=0.236, si=-1.707, s=-0.267"
+n:d="N:fo=0.503, s=0.012"
+n:p=3, d=S
+n:p=5, d=S
+n:p=2, d=S
+n:d="N:fo=0.503, s=0.012"
+n:d="N:fo=0.503, s=0.012"
+n:d="N:in=0.759, fo=0.236, si=-1.707, s=-0.2"
+n:p=2, d=Gpart
+c:5, 4, 2.967
+c:14, 17, -4.207~
+
+org:
+name:S11 dist f1 adaptive 98.016 r14
+info:~
+phase 3  run_id S11_hill_distance__adaptive_de_nsga2__f1__comp_distance__r14_s1056
+seed 1056  best_fitness 98.01608491043689
+evaluations 19702  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+(rFLLLLX[N, 3:3.189, 4:-0.382,fo:0.04]X[|, 5:-10.498, p:0.484] [N, 1:-0.351, 0:1.969, 0:-8.918, fo:0.04, in:0.8, 1:0.673, 0:0.118, 1:-4.211, 1:0.517, s:0, 1:-2.418][N, fo:0.047, 0:0.952, fo:0.904, 2:5.441, 0:-3.672, -1:-1.298, 1:1, 2:3.95], ,  X[*][N, 0:-0.734, fo:0.04, 1:10.677, 0:0.767, fo:0.04, -2:1.675][Gpart, rz:-0.575, rz:-4.032][Gpart, rz:-0.575, rz:-4.032], X[Gpart, rz:-0.575, rz:-4.032, rz:0, ry:0.1][@, p:0.841, p:0.86, p:0.897, -6:0.719, p:1])~
+
+org:
+name:S12 dist f1 adaptive 140.460 r14
+info:~
+phase 3  run_id S12_shallow_distance__adaptive_de_nsga2__f1__comp_distance__r14_s1056
+seed 1056  best_fitness 140.46033546895427
+evaluations 21189  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+(((LLMqMLLMLLXFLMMLMQQX[|, 1:-5.427, r:1])), FX[G], FFX, QX)~
+
+org:
+name:S11 dist f1 gene 79.301 r14
+info:~
+phase 3  run_id S11_hill_distance__de_nsga2_gene__f1__comp_distance__r14_s1056
+seed 1056  best_fitness 79.30149779454196
+evaluations 20845  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+(F(mmLLrXX[N, 0:4.954, 0:1.087, fo:0.04, in:0.8, 0:0.056, s:0, 4:1.243, 2:4.023][|, 6:-13.803, p:0.456][Gpart][Gpart, ry:0]), , mmmmX[Gpart, ry:-1.422, rz:0, rz:0, ry:0, rz:0, rz:0, ry:0][Gpart, ry:-1.422, rz:0, rz:0, ry:0, rz:0, rz:0][Gpart, rz:-0.575, rz:-4.032, ry:0][Gpart, rz:-0.575, rz:-4.032][Gpart, rz:-0.575, rz:-4.032][Gpart, rz:-0.575, rz:-4.032], LX[G][@, p:0.841, p:1, p:0.877, -9:1])~
+
+org:
+name:S12 dist f1 gene 126.471 r16
+info:~
+phase 3  run_id S12_shallow_distance__de_nsga2_gene__f1__comp_distance__r16_s1058
+seed 1058  best_fitness 126.470588783914
+evaluations 20846  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+LLLL(X[S]FXLLX[Gpart][N, 2:-23.213, s:0, si:2, 0:1,fo:0.04]LXLMX[N, s:-0.233, 0:3.592, 0:-4.252, 0:-7.915, 1:6.448, si:2, -3:1], MMMMMX[G][|, -3:18.438, r:0.988, r:1]rX[|, p:0.25, p:0.25, r:0.988, r:0.859, r:0.869, -2:-6.787])~
+
+org:
+name:S11 dist f1 baseline 102.449 r7
+info:~
+phase 3  run_id S11_hill_distance__nsga2_baseline__f1__comp_distance__r07_s1049
+seed 1049  best_fitness 102.44898611614694
+evaluations 20493  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+LFX(RRMqcLLLCX[|, 3:1.353, r:0.857][@, 2:3.756,p:0.953,p:1],MMMMX[@,p:0.917,1:0.772][G][G])~
+
+org:
+name:S12 dist f1 baseline 121.868 r4
+info:~
+phase 3  run_id S12_shallow_distance__nsga2_baseline__f1__comp_distance__r04_s1046
+seed 1046  best_fitness 121.86784133742637
+evaluations 20797  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+(m((FLLLQXccLcLqqLLX[|, p:0.3, 1:3.312, r:1], fX[Gpart, rz:0, ry:0, ry:0, rz:0][N, 0:5.933, 0:5.329, in:0.94, 0:-7.891, -1:4.802, 0:-1.287, si:-999, 7:0.414]X), ), X[N, 0:-3.894, 0:4.149, in:0, 0:0.672, -1:10.272, 0:-6.296, 0:-0.184, si:2, 1:4.248]RCX[Gpart, rz:-1.458, ry:2.582, ry:0, rz:0, rz:0][|, p:0.263, p:0.25, p:0.25, p:0.179, 2:-3.998, p:0.25], RX[N, -5:1.548, 3:1][Gpart, rz:-1.458, ry:1.642, ry:0][|, p:0.464, p:0.25, p:0.179, 1:-5.29, p:0.25][Gpart, rz:-1.458, ry:2.582, ry:0, ry:0])~
+
+org:
+name:S11 dist f1 simpleEA 44.656 r5
+info:~
+phase 3  run_id S11_hill_distance__simple_ea__f1__comp_distance__r05_s1047
+seed 1047  best_fitness 44.656156038902516
+evaluations 26703  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+MX[G][G][|, r:0.94, r:1,9:1][Gpart, ry:0.437]LLqCX[S][N, 7:-0.615, 8:0.106, -5:-1.37, in:0.8][*][*][S][Gpart][|, -1:1.61]lmCFX[Gpart][Gpart][T][N, 1:-16.786, -13:1.382, -8:-4.003][S][@, -10:0.312]~
+
+org:
+name:S12 dist f1 simpleEA 115.566 r15
+info:~
+phase 3  run_id S12_shallow_distance__simple_ea__f1__comp_distance__r15_s1057
+seed 1057  best_fitness 115.56607325166826
+evaluations 26842  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+llMXLLLX[N, 5:-27.162, 5:-22.211, 5:-4.22,si:2]LfX[T][N, 1:-14.699, 1:-6.676, -2:15.51,fo:0.04]fMllFX[G][@, p:0.981]RlLMfXLMMMMFFX[Gpart][|, -6:0.249]X[*][|, -8:0.171]~
+
+org:
+name:S13 tall f0 adaptive 104.646 r4
+info:~
+phase 3  run_id S13_lowgrav_tallrunner__adaptive_de_nsga2__f0__comp_tall_runner__r04_s1046
+seed 1046  best_fitness 104.64635577041761
+evaluations 20795  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+//0
+p:-0.506, 0.543, 0.816, fr=0.412, ing=0.084
+p:-0.51, 0.514, 0.729
+p:-0.565, -0.119, 1.057
+p:-0.368, 0.174, 2.73, fr=2.215
+p:1.048, -0.294, 1.006
+j:0, 3, stif=0.759
+j:4, 0
+j:3, 2, stif=0.973, rotstif=0.6
+j:1, 0
+n:p=0, d="Gpart:ry=0.289, rz=2.533"
+n:j=2, d=@:p=0.961
+c:1, 0, -4.619~
+
+org:
+name:S14 tall f0 adaptive 14.816 r11
+info:~
+phase 3  run_id S14_blocks_tallrunner__adaptive_de_nsga2__f0__comp_tall_runner__r11_s1053
+seed 1053  best_fitness 14.8155824265517
+evaluations 21751  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+//0
+p:-0.38181924772126197, 0.7864900535431916, 0.15965871234962914, fr=0.787, ing=0.509
+p:-0.2204636787924391, 0.6671107804376522, 0.19086278907185172, fr=0.791, ing=0.509
+p:0.16335471565074033, 0.43426234069471437, 0.07969223154074939, fr=1.0, ing=0.19
+p:0.6995363487530363, 0.49620706617712207, -0.27070001303965596
+p:0.7004541439674083, 0.4688927533924121, -0.2829773705230487
+p:0.06711361312329367, 0.3023721099594302, 0.26158918131119746, fr=0.988, ing=0.442
+p:0.6382760047946067, 2.319363441343286, 0.5487803356869438, fr=0.194, ing=0.037
+p:0.9255546153104846, 1.3210400053840758, 0.48181621051226575, ing=0.046
+p:-0.3808448337630631, 0.7904157743109863, 0.389611261108631, ing=0.297
+p:-0.31637356258777105, 0.776675864054198, 0.398819049284914, ing=0.009
+p:0.06630736370809975, 0.446884189582909, 0.9560558755129355, fr=0.815, ing=0.048
+p:0.7364766868833251, 1.9043722051596572, 2.1501253051212026, ing=0.326
+p:0.973938992755349, 0.3968404337771616, 1.5848134971134327, fr=1.034, ing=0.057
+j:4, 3, stif=0.77, rotstif=0.736
+j:6, 0, rotstif=0.995
+j:6, 1, rotstif=0.919
+j:3, 6, stif=0.806, rotstif=0.732
+j:2, 6, stif=0.806, rotstif=0.732
+j:4, 2, stif=0.949, rotstif=0.78
+j:3, 2, stif=0.842, rotstif=0.907
+j:2, 8, rotstif=0.984
+j:2, 7
+j:12, 2, stif=0.732, rotstif=0.882
+j:9, 2, stif=0.97, rotstif=0.965
+j:7, 9
+j:10, 2, stif=0.97, rotstif=0.965
+j:12, 5, rotstif=0.956
+j:10, 5, stif=0.495, rotstif=0.536
+j:2, 5, stif=0.829, rotstif=0.931
+j:4, 9, stif=0.999, rotstif=0.863
+j:7, 10, stif=0.997, rotstif=0.774
+j:10, 6, stif=0.806, rotstif=0.732
+j:9, 12, stif=0.842, rotstif=0.914
+j:9, 10, rotstif=0.865
+j:8, 9, stif=0.999, rotstif=0.863
+j:11, 10, stif=0.997, rotstif=0.774
+n:j=0, d=@:p=0.888
+n:j=1, d=@:p=0.888
+n:p=0, d="Gpart:ry=-1.979, rz=1.186"
+n:p=0, d=Gpart
+n:j=2, d=@:p=0.888
+n:p=1, d="Gpart:ry=-1.979, rz=1.186"
+n:j=3, d=@:p=0.906
+n:j=4, d=@:p=0.906
+n:j=5, d="|:p=0.088, r=0.836"
+n:j=10, d=G
+n:j=12, d=G
+n:p=5, d="Gpart:ry=-1.979, rz=1.186"
+n:p=5, d=Gpart
+n:j=18, d=@:p=0.906
+n:p=1, d=Gpart:rz=1.372
+n:p=12, d=Gpart:ry=-0.346
+n:p=1, d=Gpart
+n:
+c:1, 2, -8.533
+c:4, 5, -8.533
+c:7, 12, 3.106
+c:8, 16, -1.364
+c:17, 17, -0.16~
+
+org:
+name:S13 tall f0 graph 91.850 r7
+info:~
+phase 3  run_id S13_lowgrav_tallrunner__de_nsga2_graph__f0__comp_tall_runner__r07_s1049
+seed 1049  best_fitness 91.85026108930721
+evaluations 21472  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+//0
+p:1.472576227565104, -0.962379849331449, -2.2424961200909377, fr=0.569
+p:0.6123059766802752, -0.9587550330879504, -0.6517927188199877, fr=0.337, ing=0.064
+p:-0.6088137860257947, 0.11594874546130107, 0.5114262431560597, fr=0.04
+p:-2.383848705001979, 0.0678551512726078, 1.431283885736272
+p:-0.8461671186018027, -0.4938742405814094, 0.6350414270965732, fr=0.71
+p:1.406, -2.0, -0.776, fr=1.205, ing=0.038
+p:0.6267498224315963, -0.9082551004806304, 1.299559553165364, fr=0.996, ing=0.46
+p:0.62956678731253, -0.9111776395809593, 1.3067183063824626, fr=0.996, ing=0.46
+p:0.001127924778345779, -0.7606904578387248, 0.8250805792374671, fr=0.157, ing=0.443
+j:1, 6, stif=0.938, rotstif=0.885
+j:5, 1, stif=0.992, rotstif=0.96
+j:5, 0, stif=0.853, rotstif=0.96
+j:2, 1, stif=0.814
+j:3, 2
+j:1, 7, stif=0.969, rotstif=0.885
+j:1, 8, stif=0.817, rotstif=0.856
+j:4, 1, rotstif=0.887
+j:8, 4, stif=0.989, rotstif=0.976
+n:j=0, d=@:p=0.943
+n:j=1, d=G
+n:j=5, d=@:p=0.943
+n:j=5, d=G
+n:p=1, d=T
+n:p=4, d="Gpart:ry=0.63, rz=-0.09"
+n:p=5, d=S
+n:p=7, d="Gpart:ry=0.63, rz=-0.09"
+n:p=7, d=Gpart
+n:p=6, d=T
+n:p=5, d=T
+c:0, 1, -5.404~
+
+org:
+name:S14 tall f0 graph 18.447 r2
+info:~
+phase 3  run_id S14_blocks_tallrunner__de_nsga2_graph__f0__comp_tall_runner__r02_s1044
+seed 1044  best_fitness 18.44660429763222
+evaluations 19894  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+//0
+p:1.282862872888037, -0.8645044807103817, -0.9006447403346234, fr=1.216, ing=0.338
+p:1.6091373804323408, -0.9479121152409802, -1.5222595972714248, fr=0.396
+p:0.591, -0.891, -1.347
+p:2.288, -2.557, -0.548, fr=1.052, ing=0.23
+p:1.064, -2.277, -2.226, fr=0.477
+j:3, 0, stif=0.989, rotstif=0.986
+j:3, 1, stif=0.957, rotstif=0.874
+j:4, 1, stif=0.818, rotstif=0.919
+j:2, 1
+n:j=0, d=|
+n:p=1, d=Gpart:rz=0.446
+n:j=1, d=@
+n:p=1, d=Gpart
+n:p=0, d=Gpart
+n:p=1, d=S
+n:p=2, d=T
+n:p=2, d=S
+n:p=3, d=T:ry=-0.354
+n:p=3, d=Gpart
+n:p=3, d=T
+n:p=3, d=T
+c:0, 1, 1.074
+c:2, 1, -5.972~
+
+org:
+name:S13 tall f0 baseline 90.502 r5
+info:~
+phase 3  run_id S13_lowgrav_tallrunner__nsga2_baseline__f0__comp_tall_runner__r05_s1047
+seed 1047  best_fitness 90.50207168613869
+evaluations 20926  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+//0
+p:0.04143019269623527, 0.37540677383261123, -0.2072825298691723, fr=0.933, ing=0.461
+p:0.8133330451489658, 0.6056155152881901, -0.22713798991658574, fr=0.666, ing=0.121
+p:1.557, 0.386, 0.495, fr=0.0, ing=0.34
+p:0.07331187541207485, 0.27566150908149023, -0.7365524257197431, fr=0.468, ing=0.164
+p:0.989, -1.382, -0.094, fr=1.148
+j:0, 4, stif=0.857
+j:4, 1, stif=0.741, rotstif=0.844
+j:2, 4, rotstif=0.965
+j:3, 4, stif=0.913, rotstif=0.914
+j:0, 3
+n:j=0, d=|
+n:p=0, d="Gpart:ry=2.83, rz=-2.6"
+n:j=1, d="|:p=0.514, r=0.963"
+n:p=3, d="Gpart:ry=-1.329, rz=1.286"
+n:p=3, d=S
+n:p=4, d=S
+n:j=3, d="|:p=0.002, r=0.972"
+c:2, 1, 2.788~
+
+org:
+name:S14 tall f0 baseline 23.321 r6
+info:~
+phase 3  run_id S14_blocks_tallrunner__nsga2_baseline__f0__comp_tall_runner__r06_s1048
+seed 1048  best_fitness 23.320795160753782
+evaluations 20885  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+//0
+p:0.04441509806721616, -2.4875377758480175, -0.9418470804362802, fr=0.629
+p:1.3736838825795732, 0.532695625026081, 0.14200503148158602, fr=0.34, ing=0.273
+p:0.069, -0.94, -0.216, fr=0.23, ing=0.022
+p:0.319, -0.77, 0.045, ing=0.214
+j:0, 3, stif=0.982, rotstif=0.968
+j:2, 0
+j:2, 1, rotstif=0.858
+n:j=0, d=@:p=0.943
+n:p=1, d=Gpart:ry=-0.789
+c:0, 1, 3.205~
+
+org:
+name:S13 tall f0 simpleEA 72.785 r0
+info:~
+phase 3  run_id S13_lowgrav_tallrunner__simple_ea__f0__comp_tall_runner__r00_s1042
+seed 1042  best_fitness 72.78505740586536
+evaluations 27146  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+//0
+p:1.923, -0.178, 0.513, ing=0.184
+p:1.126, 0.247, -0.513, fr=0.571, ing=0.768
+p:0.161, -0.216, -0.647, fr=0.561, ing=0.674
+p:1.145, -0.273, 0.94, fr=0.744, ing=0.024
+p:-0.313, 0.738, 0.103, ing=0.668
+p:0.586, 0.025, 1.165, ing=0.475
+j:0, 3, stif=0.945, rotstif=0.326
+j:5, 1, stif=0.829, rotstif=0.438
+j:2, 3, stif=0.826, rotstif=0.995
+j:5, 2, rotstif=0.736
+j:4, 5, stif=0.999, rotstif=0.853
+n:
+n:p=3, d=Gpart:rz=-1.662
+n:j=3, d=@:p=0.88
+n:j=2, d=@
+n:p=4, d=T:rz=0.49
+n:p=3, d=T
+n:p=4, d=S
+c:0, 0, -1.135
+c:2, 1, 5.332
+c:3, 1, -6.55~
+
+org:
+name:S14 tall f0 simpleEA 35.840 r13
+info:~
+phase 3  run_id S14_blocks_tallrunner__simple_ea__f0__comp_tall_runner__r13_s1055
+seed 1055  best_fitness 35.84045128383904
+evaluations 27217  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+//0
+p:-1.133, 2.24, -0.361, ing=0.43
+p:0.146, 1.266, 0.229, ing=0.412
+p:-0.26970241300956777, 0.44574096109285843, -0.17511880784620423, fr=0.49, ing=0.049
+p:0.4157593045535325, 0.5893014891389743, -1.6333933749359353, fr=0.317, ing=0.721
+j:0, 2, stif=0.752, rotstif=0.903
+j:0, 1, rotstif=0.898
+j:3, 1, stif=0.752, rotstif=0.843
+n:d=N:s=-0.058
+n:j=0, d=|:r=0.879
+n:p=0, d=Gpart
+n:j=1, d=G
+n:p=2, d=S
+n:p=3, d=S
+n:p=0, d=S
+n:d=N:fo=0.156
+n:p=2, d=T
+c:0, 0, 0.99
+c:0, 2, -2.384
+c:0, 6, 4.698
+c:0, 7, -0.563
+c:1, 0, 1.119~
+
+org:
+name:S13 tall f1 adaptive 64.954 r4
+info:~
+phase 3  run_id S13_lowgrav_tallrunner__adaptive_de_nsga2__f1__comp_tall_runner__r04_s1046
+seed 1046  best_fitness 64.95440920416928
+evaluations 20880  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+((LQLLFcFM(XMXX, X[T]lLLX[Gpart, ry:0][|, -2:0.69]), XlLLmX))~
+
+org:
+name:S14 tall f1 adaptive 8.359 r17
+info:~
+phase 3  run_id S14_blocks_tallrunner__adaptive_de_nsga2__f1__comp_tall_runner__r17_s1059
+seed 1059  best_fitness 8.359447873808067
+evaluations 19980  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+qFXLCMX[N, 3:-0.68][|, r:1, r:1]XLCMqmX[|, 1:2.949][Gpart, rz:4.901]CMqmX[|, 1:5.446][Gpart, rz:4.901]~
+
+org:
+name:S13 tall f1 baseline 65.066 r13
+info:~
+phase 3  run_id S13_lowgrav_tallrunner__nsga2_baseline__f1__comp_tall_runner__r13_s1055
+seed 1055  best_fitness 65.0662376866878
+evaluations 20990  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+(((((LLL(L(, MMccQX, CmXQQXcX[G]rffffXX[T, rz:0.722,rz:-2.679]QXfcXrflfmX[T, ry:0.568]X), LQMX[Gpart, ry:0][|, -2:1.527]cFFlllX))), )), X[G][|, -3:4.87][N, fo:1, s:0, s:0.249, s:-0.249, 0:-2.352, -6:-0.452, -5:0.198, -7:3.454, 0:-1.775,in:0.8])~
+
+org:
+name:S14 tall f1 baseline 7.582 r19
+info:~
+phase 3  run_id S14_blocks_tallrunner__nsga2_baseline__f1__comp_tall_runner__r19_s1061
+seed 1061  best_fitness 7.581782990928614
+evaluations 19964  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+LlmX[*]XfQX[*][@, p:0.914, 2:-2.709]CqFX[G][G][|, -1:-9.477]~
+
+org:
+name:S13 tall f1 simpleEA 48.836 r13
+info:~
+phase 3  run_id S13_lowgrav_tallrunner__simple_ea__f1__comp_tall_runner__r13_s1055
+seed 1055  best_fitness 48.836282406541464
+evaluations 26560  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+rqMqXLCLXfLLMLfLXMX[S]LMLLLCMMX[N,1:13.753,3:-9.321,0:-1.976,3:2.443,fo:0.04][G]MLLMLLX[@, -1:1.192,p:1,p:1,p:1][G][|, -1:-1.404,r:0.85]~
+
+org:
+name:S14 tall f1 simpleEA 5.223 r16
+info:~
+phase 3  run_id S14_blocks_tallrunner__simple_ea__f1__comp_tall_runner__r16_s1058
+seed 1058  best_fitness 5.222724452587242
+evaluations 26959  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+XMMX[|,1:-8.309,r:1,r:1][Gpart]XX[@,-1:9.09,p:1]~
+
+org:
+name:S03 jump f0 adaptive 8.356 r5
+info:~
+phase 3  run_id S03_lowgrav_jump__adaptive_de_nsga2__f0__jump_height__r05_s1047
+seed 1047  best_fitness 8.35593619730464
+evaluations 21186  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+//0
+p:1.142, 1.539, -0.204, fr=0.726, ing=0.319
+p:1.1933331266322147, -0.4018810736180187, -0.6831091819006697, fr=0.321
+p:0.41556317834364254, -0.32189269400858955, -0.2965633055117683, fr=1.712
+p:-0.106, -0.588, 0.168, fr=0.24, ing=0.266
+j:0, 1, stif=0.99, rotstif=0.843
+j:0, 2, stif=0.978, rotstif=0.771
+j:3, 1
+n:j=0, d=@
+n:d=*
+n:j=1, d=@
+c:0, 1, -4.777
+c:2, 1, 1.737~
+
+org:
+name:S09 jump f0 adaptive 4.186 r19
+info:~
+phase 3  run_id S09_joints_jump__adaptive_de_nsga2__f0__jump_height__r19_s1061
+seed 1061  best_fitness 4.186164474847187
+evaluations 20213  world short_joints
+Body constraint: joints between 0.3 and 1.6 long (2023/24 'body constraints')
+world parameters: {'min_joint': 0.3, 'max_joint': 1.6}~
+genotype:~
+//0
+p:-0.5858933002669505, -0.7610943757669917, 0.09943256867381517, fr=1.537, ing=0.273
+p:-0.762491472166361, -0.7433203444285672, 0.03527538336272229, fr=0.262
+p:-0.16, 0.03, -0.18, fr=0.532
+p:-1.006, -2.231, 0.571, fr=0.143, ing=0.149
+j:3, 1
+j:3, 0, stif=0.943, rotstif=0.933
+j:2, 0
+n:p=1, d="Gpart:ry=1.789, rz=-0.379"
+n:j=0, d=@
+n:j=1, d=|:p=0.472
+n:j=1, d=@
+n:
+n:j=0, d=|:p=0.172
+c:1, 0, -3.234
+c:2, 0, 0.785
+c:3, 1, -1.351
+c:4, 0, 2.306~
+
+org:
+name:S03 jump f0 hybrid 8.412 r1
+info:~
+phase 3  run_id S03_lowgrav_jump__de_nsga2_hybrid__f0__jump_height__r01_s1043
+seed 1043  best_fitness 8.411884405976545
+evaluations 21878  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+//0
+p:-0.899680957139005, 0.18135311977310642, 0.011504668265576834, fr=0.36
+p:-0.684, -0.063, -0.251, fr=0.352
+p:-0.1843793547503369, -0.16398528583158933, -0.5766855270930238, fr=1.23, ing=0.234
+p:-0.454, -1.612, 0.776, fr=0.311, ing=0.129
+p:-1.314, 0.566, -0.509, ing=0.261
+j:3, 2, stif=0.959, rotstif=0.7
+j:3, 0, stif=0.997, rotstif=0.969
+j:1, 2
+j:4, 2
+n:d=*
+n:j=0, d=@
+n:d=*
+n:j=1, d=@:p=0.689
+n:d=*
+n:p=2, d=S
+n:d=*
+n:d=*
+n:d=*
+c:1, 0, 13.936
+c:3, 2, -0.925~
+
+org:
+name:S09 jump f0 hybrid 4.270 r19
+info:~
+phase 3  run_id S09_joints_jump__de_nsga2_hybrid__f0__jump_height__r19_s1061
+seed 1061  best_fitness 4.269670361721979
+evaluations 21864  world short_joints
+Body constraint: joints between 0.3 and 1.6 long (2023/24 'body constraints')
+world parameters: {'min_joint': 0.3, 'max_joint': 1.6}~
+genotype:~
+//0
+p:0.149, -1.401, 1.256, fr=1.578, ing=0.066
+p:0.2959745870023307, -1.1792566602891843, -0.3215666032435489, fr=0.815
+p:-0.23343291698739124, -0.9840350272063727, -0.2404535746449754, fr=1.96, ing=0.191
+p:-0.725, -0.815, -0.716, fr=0.64
+j:0, 2, stif=0.998, rotstif=0.99
+j:0, 1
+j:3, 1
+n:d="N:fo=1.0, s=-0.129"
+n:d=*
+n:j=0, d=@
+n:d=N:s=-0.129
+n:
+n:d=N:s=-0.129
+n:p=1, d=Gpart:rz=-2.01
+n:j=1, d=@
+n:d=N:s=-0.129
+n:
+n:
+n:
+n:
+c:0, 1, 1.34
+c:2, 0, -6.674
+c:5, 5, -0.196
+c:7, 6, -2.764
+c:9, 0, 1.092
+c:11, 0, -1.152
+c:12, 9, -4.376~
+
+org:
+name:S03 jump f0 baseline 8.326 r4
+info:~
+phase 3  run_id S03_lowgrav_jump__nsga2_baseline__f0__jump_height__r04_s1046
+seed 1046  best_fitness 8.326426179286905
+evaluations 21187  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+//0
+p:-0.4075586743520868, 0.36758163145667566, 1.1387688744593851, fr=0.48, ing=0.04
+p:-0.705, 0.075, 0.861, ing=0.33
+p:0.17735374797892228, 0.5476425605940227, 1.0105617932612787, fr=0.329
+p:0.107, 1.065, 2.941
+j:3, 0, stif=0.976, rotstif=0.73
+j:3, 2, stif=0.996, rotstif=0.94
+j:1, 2
+n:j=0, d=@:p=0.968
+n:j=0, d=G
+n:j=1, d=@:p=0.997
+n:j=1, d=G
+c:0, 1, 6.667
+c:2, 3, 1.998~
+
+org:
+name:S09 jump f0 baseline 4.245 r10
+info:~
+phase 3  run_id S09_joints_jump__nsga2_baseline__f0__jump_height__r10_s1052
+seed 1052  best_fitness 4.244852139204886
+evaluations 20589  world short_joints
+Body constraint: joints between 0.3 and 1.6 long (2023/24 'body constraints')
+world parameters: {'min_joint': 0.3, 'max_joint': 1.6}~
+genotype:~
+//0
+p:1.11, 1.463, 0.139, ing=0.254
+p:1.1073526410190246, 0.6467066695299036, -0.18179879142447963, fr=0.318, ing=0.208
+p:0.8161181386194115, 0.5632136261025177, -0.10038830633577217, fr=1.09, ing=0.06
+p:1.319, -0.92, -0.427
+j:0, 1, stif=0.893
+j:3, 1, stif=0.812, rotstif=0.835
+j:3, 2, rotstif=0.693
+n:j=1, d=G
+n:j=1, d=@:p=0.965
+n:j=2, d=G
+n:j=2, d=@:p=0.856
+n:j=1, d=|
+c:1, 0, -2.26
+c:3, 2, -4.867
+c:4, 0, 4.007~
+
+org:
+name:S03 jump f0 simpleEA 12.444 r11
+info:~
+phase 3  run_id S03_lowgrav_jump__simple_ea__f0__jump_height__r11_s1053
+seed 1053  best_fitness 12.44393501242708
+evaluations 26914  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+//0
+p:-0.5847274927268328, -1.3560674491477467, 0.750830953511647, fr=0.918, ing=0.743
+p:-1.767, -0.79, -0.331, fr=0.442, ing=0.708
+p:-0.791, 0.675, -1.088, fr=1.008, ing=0.484
+p:-0.005536935825799949, 0.1567146761848307, -0.31761211569031556, fr=1.253, ing=0.723
+p:-0.27277051099565575, 0.09544719009877922, -0.5832899005948678, fr=0.452, ing=0.205
+p:-0.516, 0.688, 0.05, fr=0.34
+p:-0.392, -0.265, 0.222, ing=0.107
+j:0, 4, stif=0.998, rotstif=0.79
+j:1, 3, stif=0.965, rotstif=0.742
+j:3, 0, rotstif=0.923
+j:2, 1, stif=0.985, rotstif=0.972
+j:6, 2, stif=0.989, rotstif=0.966
+j:5, 6, stif=0.979
+n:d=*
+n:j=0, d=@:p=0.739
+n:d=*
+n:d=*
+n:j=2, d="|:p=0.248, r=0.838"
+n:p=2, d="T:r=0.856, ry=-0.417, rz=-0.729"
+n:p=1, d="Gpart:ry=-1.868, rz=-0.548"
+n:p=3, d=S
+n:p=2, d="T:r=0.918, ry=-0.269"
+n:p=1, d="Gpart:ry=2.803, rz=-0.587"
+n:d=*
+n:d=*
+n:j=0, d=G
+n:j=1, d=|:p=0.272
+n:j=3, d=@:p=0.924
+n:p=4, d=T
+n:j=4, d=@
+n:
+c:1, 0, -0.869
+c:4, 10, 0.048
+c:13, 12, 1.337
+c:14, 8, -1.167
+c:16, 8, 0.057
+c:17, 3, -4.415
+c:17, 8, -4.023~
+
+org:
+name:S09 jump f0 simpleEA 5.350 r11
+info:~
+phase 3  run_id S09_joints_jump__simple_ea__f0__jump_height__r11_s1053
+seed 1053  best_fitness 5.350395662429901
+evaluations 27004  world short_joints
+Body constraint: joints between 0.3 and 1.6 long (2023/24 'body constraints')
+world parameters: {'min_joint': 0.3, 'max_joint': 1.6}~
+genotype:~
+//0
+p:1.025674403975883, -0.002087264739879746, -0.029848112839453655, fr=2.04, ing=0.441
+p:0.5265170741726084, -0.046966121951716566, 0.04743762279625363, fr=0.055, ing=0.574
+p:1.054, -0.885, 1.304, fr=1.986, ing=0.536
+p:-0.527, -0.31, 0.128, fr=1.643, ing=0.879
+j:0, 3, stif=0.89, rotstif=0.88
+j:2, 1, rotstif=0.723
+j:2, 0, stif=0.993, rotstif=0.204
+n:d=*
+n:j=1, d=@:p=0.991
+n:j=2, d=@
+n:p=1, d="T:r=0.733, rz=0.213"
+n:d=*
+n:p=2, d="Gpart:ry=-4.252, rz=-0.49"
+n:j=0, d="|:p=0.835, r=0.776"
+n:j=2, d=G
+n:j=0, d=@
+n:p=0, d=T:rz=0.947
+n:j=1, d=|:p=0.069
+n:j=2, d=G
+n:p=2, d=T
+c:1, 0, -6.724
+c:2, 3, 10.451
+c:6, 4, -1.135
+c:8, 7, 12.687
+c:10, 0, 1.029~
+
+org:
+name:S03 jump f1 adaptive 7.335 r8
+info:~
+phase 3  run_id S03_lowgrav_jump__adaptive_de_nsga2__f1__jump_height__r08_s1050
+seed 1050  best_fitness 7.334891194014275
+evaluations 20271  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+(((qX[N, si:3.931][N, 3:-3.999, si:3.931, 3:3.467, 3:-2.776, 3:-1.102, 3:0.696][N, 2:-4.386, 3:1]CLCcXLLMLLX[|, -1:23.787][Gpart, ry:-0.858, rz:1.301]), X[S][|, -2:4.03]), )~
+
+org:
+name:S09 jump f1 adaptive 4.160 r14
+info:~
+phase 3  run_id S09_joints_jump__adaptive_de_nsga2__f1__jump_height__r14_s1056
+seed 1056  best_fitness 4.160176178516261
+evaluations 20621  world short_joints
+Body constraint: joints between 0.3 and 1.6 long (2023/24 'body constraints')
+world parameters: {'min_joint': 0.3, 'max_joint': 1.6}~
+genotype:~
+L(LqqqMqXMLMMX[|, 1:-11.092][Gpart, ry:-2.874, rz:-1.85], X,X)~
+
+org:
+name:S03 jump f1 baseline 7.720 r12
+info:~
+phase 3  run_id S03_lowgrav_jump__nsga2_baseline__f1__jump_height__r12_s1054
+seed 1054  best_fitness 7.719596370385995
+evaluations 20814  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+((((LLLrrLLMMXqqqMLLLLLLMLLX[|, 1:10.027, r:0.934], X[Gpart, rz:-2.302])), fX[N, -1:3.782, in:0.8, 0:0.165]), MX[N, 2:-0.801, in:0.8][N, 2:0.269, in:0.8][N, 1:-5.323, -3:0.096, 4:-3.27, 1:-4.624, 4:4.647, 1:4.003, in:0.828, 0:1.748, -1:-3.134][N, 1:-5.436, -4:2.169, 3:-3.27, 1:-2.985, 3:-2.567, 1:4.003, in:0.828, 0:0.165, -1:4.53][N, si:-2.16, 0:2.768, 0:-3.186, 0:4.466, 2:1.558][N, si:-2.16, 0:3.695, 0:-9.055, 0:4.466, -1:-0.545, -5:1.469, -2:1, in:0.8][N, si:999, 0:2.968, 0:-2.824, 0:5.104])~
+
+org:
+name:S09 jump f1 baseline 4.518 r0
+info:~
+phase 3  run_id S09_joints_jump__nsga2_baseline__f1__jump_height__r00_s1042
+seed 1042  best_fitness 4.517791206354849
+evaluations 20808  world short_joints
+Body constraint: joints between 0.3 and 1.6 long (2023/24 'body constraints')
+world parameters: {'min_joint': 0.3, 'max_joint': 1.6}~
+genotype:~
+XRLQQLX[S]LMMqX[Gpart, rz:1.287, ry:-0.016][|, r:0.954, -1:-5.762, p:0.422]rCXLX[|, -2:4.761][N, 1:-6.161, 1:1.285, 0:-2.071, 0:1.645, 1:0.162, 1:0.51][N, 0:0.952, 0:2.279, -5:-1.778, -4:-0.404][N, 1:-6.161, 1:1.285, 0:-3.894, 0:2.412, 1:-0.535, -6:6.136, -1:2.082][N, 1:-6.161, 1:1.285, 0:-2.071, 0:2.096, 1:0.455, -6:2.417, -1:2.082,1:1][Gpart, rz:0, rz:0, ry:0]~
+
+org:
+name:S03 jump f1 simpleEA 6.373 r0
+info:~
+phase 3  run_id S03_lowgrav_jump__simple_ea__f1__jump_height__r00_s1042
+seed 1042  best_fitness 6.373144442638882
+evaluations 26733  world low_gravity
+Half gravity -- jumps last longer, walking gaits slip
+world parameters: {'gravity': 0.5}~
+genotype:~
+L(, MMMLLLLCX[*][*][N, 2:0.104, 9:-1.115, -1:-3.028, 0:4][@, 6:-3.694][*][|, 6:-4.305], CLLLX[@, 5:3.29, p:1,p:1]CLqLqX[N,-5:0.105,-6:1][S][Gpart, rz:1.627][@, -6:7.593, p:0.977][Gpart,rz:0])~
+
+org:
+name:S09 jump f1 simpleEA 4.011 r11
+info:~
+phase 3  run_id S09_joints_jump__simple_ea__f1__jump_height__r11_s1053
+seed 1053  best_fitness 4.0109042343449826
+evaluations 26612  world short_joints
+Body constraint: joints between 0.3 and 1.6 long (2023/24 'body constraints')
+world parameters: {'min_joint': 0.3, 'max_joint': 1.6}~
+genotype:~
+Rf(f(L(RXLqX[N, 3:3.087, 0:-13.821, 3:13.471, 0:11.211, 3:-7.449, 0:6.666, 0:-4.917, fo:1, 3:0.369, 3:0.456,3:1][|, 2:7.946, p:0.722, r:1]), RX[|, 1:2.198, r:0.954][Gpart]), RmqX)~
+
+org:
+name:S02 sine f0 adaptive 0.690 r0
+info:~
+phase 3  run_id S02_shortlife_bounce__adaptive_de_nsga2__f0__sinusoidal_bounce__r00_s1042
+seed 1042  best_fitness 0.6901249660527288
+evaluations 20395  world flat_short_life
+Shorter lifespan: 60% of the base starting energy (fewer steps to act)
+world parameters: {'energy0': 1500}~
+genotype:~
+//0
+p:-1.131, 1.233, 3.337, fr=1.403, ing=0.719
+p:-2.092, 1.072, 2.596, fr=0.557
+p:-1.1343141785062159, -0.22684026464645424, 1.9702317468064314, fr=0.557, ing=0.672
+p:-1.106, 0.795, 2.658, fr=0.467
+p:-1.287, -0.834, 3.055
+j:0, 1, stif=0.934, rotstif=0.936
+j:2, 0, stif=0.962, rotstif=0.93
+j:3, 0, stif=0.947
+j:4, 2
+n:d="N:in=0.0, si=3.056"
+n:d="N:in=0.0, si=-999.0, s=-0.023"
+n:p=1, d=T:ry=1.097
+n:j=1, d=|
+c:0, 0, -1.492
+c:0, 2, -1.101
+c:1, 0, 10.362
+c:1, 2, -2.943
+c:1, 1, 4.293
+c:3, 1, -1.089~
+
+org:
+name:S05 sine f0 adaptive 0.750 r10
+info:~
+phase 3  run_id S05_shallow_bounce__adaptive_de_nsga2__f0__sinusoidal_bounce__r10_s1052
+seed 1052  best_fitness 0.749770068927466
+evaluations 21589  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+//0
+p:1.2411287933729653, 1.1257136964879093, 0.7319214718764706, fr=2.249, ing=0.348
+p:1.9707160538011985, -0.2319849637328737, 1.2682024239121819, fr=0.031, ing=0.636
+p:1.7411396864404658, 0.16591675497142888, 1.8281168163913768, fr=0.126, ing=0.382
+p:2.041, -0.362, 2.015
+p:1.6315111292342486, 0.9296194557101575, -0.2718612268667463, fr=0.502, ing=0.574
+p:1.162, 1.068, 1.74
+p:0.9825026031396035, 1.2952794266098198, 0.4374812324630505
+p:0.319, 2.001, -0.41
+p:0.5853170313867941, 0.6688420404011955, 0.14197851308625253, fr=0.956
+p:0.776709673854916, 0.6638878439804557, 0.5765308589455597, fr=1.259
+j:9, 1, stif=0.952, rotstif=0.865
+j:8, 1
+j:6, 1, stif=0.995, rotstif=0.975
+j:1, 0, stif=0.979, rotstif=0.954
+j:2, 0, stif=0.878, rotstif=0.971
+j:5, 1
+j:4, 1, stif=0.995, rotstif=0.936
+j:3, 1
+j:4, 6
+j:9, 6
+j:8, 6
+j:7, 6
+n:p=0, d="Gpart:ry=-1.743, rz=-2.247"
+n:j=3, d="|:p=0.047, r=0.824"
+c:1, 0, -3.811~
+
+org:
+name:S02 sine f0 baseline 0.706 r10
+info:~
+phase 3  run_id S02_shortlife_bounce__nsga2_baseline__f0__sinusoidal_bounce__r10_s1052
+seed 1052  best_fitness 0.7061894746611712
+evaluations 21242  world flat_short_life
+Shorter lifespan: 60% of the base starting energy (fewer steps to act)
+world parameters: {'energy0': 1500}~
+genotype:~
+//0
+p:2.65, 0.371, -0.066, fr=0.699, ing=0.224
+p:1.291, 1.4, -2.084, fr=2.479, ing=0.22
+p:0.561, 0.668, -2.098
+p:2.071, 0.16, -1.142, fr=0.872, ing=0.629
+p:2.091, 0.17, -1.12, fr=0.47
+j:2, 4
+j:4, 1, stif=0.996, rotstif=0.883
+j:0, 3, stif=0.993, rotstif=0.969
+j:3, 1, stif=0.599, rotstif=0.884
+j:3, 4
+n:j=1, d=|:r=0.901
+n:j=1, d=@:p=0.943
+n:d=*
+n:j=3, d=|
+n:j=3, d=@
+n:d=*
+c:3, 2, -2.055
+c:4, 2, -0.881~
+
+org:
+name:S05 sine f0 baseline 0.754 r12
+info:~
+phase 3  run_id S05_shallow_bounce__nsga2_baseline__f0__sinusoidal_bounce__r12_s1054
+seed 1054  best_fitness 0.7538236393755479
+evaluations 22115  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+//0
+p:-0.30867173322406694, -0.2985076587405995, -0.14558251775187114, fr=0.645, ing=0.073
+p:-0.103, -0.187, 0.035, ing=0.38
+p:-0.103, -0.187, 0.035, fr=0.45
+p:-0.07106495363080645, -0.20259674844417197, -0.3716228888941608, fr=1.118, ing=0.021
+p:0.7678168178192255, 1.1810277074862432, -0.10969748704894947, fr=0.636, ing=0.08
+p:0.6108341487035034, 0.8737479063504259, -0.18947975446378296, ing=0.116
+p:0.479, 0.458, 0.523, fr=1.18, ing=0.451
+p:0.012531733273188905, -0.6653568125469578, 0.030333528244283647, fr=0.632, ing=0.272
+p:0.08457284998283335, -0.6565898657915861, -0.08331744397701701
+p:0.08457284998283335, -0.6565898657915861, -0.08331744397701701
+p:0.7306643984872896, -2.0034093522200824, -0.034719264642175465, ing=0.264
+j:1, 7, rotstif=0.962
+j:1, 8, stif=0.999
+j:10, 1
+j:4, 8
+j:5, 7, rotstif=0.949
+j:4, 7, rotstif=0.868
+j:10, 3, stif=0.751, rotstif=0.977
+j:0, 10, rotstif=0.978
+j:4, 0, stif=0.934, rotstif=0.999
+j:0, 5, rotstif=0.978
+j:1, 4
+j:10, 2, rotstif=0.954
+j:2, 4
+j:2, 7, rotstif=0.979
+j:2, 8
+j:5, 3, stif=0.751, rotstif=0.977
+j:6, 4, rotstif=0.879
+j:1, 9, rotstif=0.979
+j:4, 9
+j:9, 7, rotstif=0.983
+n:p=0, d=T:ry=0.339
+n:j=6, d="|:p=0.124, r=0.985"
+n:j=15, d="|:p=0.059, r=0.843"
+n:p=9, d=S
+c:1, 0, 3.216~
+
+org:
+name:S02 sine f0 simpleEA 0.728 r5
+info:~
+phase 3  run_id S02_shortlife_bounce__simple_ea__f0__sinusoidal_bounce__r05_s1047
+seed 1047  best_fitness 0.7280427721709398
+evaluations 27267  world flat_short_life
+Shorter lifespan: 60% of the base starting energy (fewer steps to act)
+world parameters: {'energy0': 1500}~
+genotype:~
+//0
+p:1.187, 0.585, -0.69, fr=0.284, ing=0.09
+p:fr=0.601, ing=0.301
+p:-0.75, 0.95, -0.222, fr=0.439, ing=0.287
+p:1.0, fr=1.646, ing=0.565
+p:0.879, 0.053, -1.172, fr=0.873, ing=0.366
+p:-0.414, 0.024, -0.414, fr=0.173, ing=0.385
+p:-0.42, -0.343, -0.497, fr=0.155, ing=0.249
+j:1, 3, stif=0.944, rotstif=0.613
+j:4, 1, stif=0.994, rotstif=0.585
+j:0, 3, stif=0.986, rotstif=0.764
+j:6, 1, stif=0.875, rotstif=0.826
+j:2, 5, rotstif=0.571
+j:5, 6, rotstif=0.791
+n:d="N:in=0.765, fo=0.573, si=-3.073, s=0.012"
+n:j=0, d=@:p=0.915
+n:d=*
+n:p=2, d="T:ry=-1.269, rz=1.44"
+n:d=*
+n:d="N:in=0.929, si=-4.244, s=-0.1"
+n:d="N:in=0.941, fo=0.11, si=-999.0"
+c:0, 0, 10.023
+c:0, 2, 2.438
+c:0, 3, -5.337
+c:1, 0, -0.827
+c:5, 4, -0.894
+c:6, 4, 3.068~
+
+org:
+name:S05 sine f0 simpleEA 0.654 r11
+info:~
+phase 3  run_id S05_shallow_bounce__simple_ea__f0__sinusoidal_bounce__r11_s1053
+seed 1053  best_fitness 0.654393752307902
+evaluations 27107  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+//0
+p:0.182, -0.145, 0.237, fr=0.553, ing=0.526
+p:0.871, -0.136, -0.658, fr=0.328, ing=0.186
+p:0.457, -1.15, -0.007, fr=1.841, ing=0.32
+p:0.5, 0.999, 0.129, fr=0.002, ing=0.233
+p:-0.138, 0.557, 0.937, ing=0.41
+j:2, 0, stif=0.714, rotstif=0.711
+j:1, 2, stif=0.911, rotstif=0.724
+j:3, 1, stif=0.93, rotstif=0.5
+j:4, 3, rotstif=0.805
+n:j=0, d=|:r=0.955
+n:p=0, d="T:r=0.906, ry=0.687, rz=-0.308"
+n:p=0, d="T:r=0.892, ry=0.988, rz=-1.055"
+n:j=2, d="|:p=0.339, r=0.96"
+n:j=1, d=G
+n:j=0, d=G
+n:j=3, d=|
+n:p=2, d="T:r=0.96, ry=-4.109, rz=-1.311"
+n:p=2, d=Gpart:rz=1.598
+n:p=3, d="Gpart:ry=0.465, rz=-0.039"
+n:p=2, d=T:rz=1.482
+n:d=*
+n:
+n:j=1, d=G
+n:p=0, d=T
+n:j=0, d=G
+n:d=*
+n:d="N:fo=1.0, si=0.646"
+c:0, 1, -0.31
+c:3, 2, 7.846
+c:6, 2, 3.884
+c:17, 4, 2.047
+c:17, 10, 1.923
+c:17, 14, -1.074~
+
+org:
+name:S02 sine f1 adaptive 0.709 r6
+info:~
+phase 3  run_id S02_shortlife_bounce__adaptive_de_nsga2__f1__sinusoidal_bounce__r06_s1048
+seed 1048  best_fitness 0.7093545866350017
+evaluations 20754  world flat_short_life
+Shorter lifespan: 60% of the base starting energy (fewer steps to act)
+world parameters: {'energy0': 1500}~
+genotype:~
+(QmmfCFCFqQmQmmXCCXQQX[N]RQX[N, s:0, si:-999, s:0, s:-0.081, 0:5.63, 0:-4.346, in:0.8, fo:0.04]mX[N, -1:17.809, s:0, si:-999, s:0, s:-0.081, 0:6.307, 0:-5.829, -1:-0.186, in:0.8, fo:0.04]RX[|], rX[N, 1:3.929, si:2, -2:1.28][Gpart, rz:1.166, ry:0.54, rz:-0.444, rz:0][N, 1:2.982, si:2, fo:0.04, -6:1][Gpart, rz:1.166, ry:0.54, rz:-0.444][Gpart, rz:0.46, ry:0.54, rz:-0.444][Gpart, rz:0.46, ry:0.54, rz:-0.444, rz:0][|, -9:-3.161, p:0.216, p:0.205, p:0.25, r:1])~
+
+org:
+name:S05 sine f1 adaptive 0.800 r10
+info:~
+phase 3  run_id S05_shallow_bounce__adaptive_de_nsga2__f1__sinusoidal_bounce__r10_s1052
+seed 1052  best_fitness 0.8001250908159245
+evaluations 20009  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+(rrMXcMMX[N, 0:-22.211, 0:-11.407, 0:7.749, si:2, 0:2.162, 0:-2.582, fo:0.04, 0:-3.917, s:0, fo:0.752, 10:-5.363, fo:0.04, s:0], cCMX[N, 0:-19.699, 0:-6.291, 0:0.358, si:2, 0:-1.883, 0:-0.182, fo:0.04, 0:-0.528, s:-0.01, 3:2.987, -1:-3.744]QXflX[@, p:0.93, p:0.963, p:1, p:1, -2:-2.572, p:0.801, p:1]qqX[S][T, rz:-2.41][|, 1:1.118, r:0.987]rXlX[N, 1:0.441, -2:7.823, 1:0.458, -6:1.665]rX[N, 1:-0.695, 1:1.926, 1:0.458, -3:-2.207, fo:0.04][N, 1:3.185, 1:1.74, 1:0.458, in:0.755][Gpart][Gpart])~
+
+org:
+name:S02 sine f1 gene 0.739 r4
+info:~
+phase 3  run_id S02_shortlife_bounce__de_nsga2_gene__f1__sinusoidal_bounce__r04_s1046
+seed 1046  best_fitness 0.7392326413883347
+evaluations 20865  world flat_short_life
+Shorter lifespan: 60% of the base starting energy (fewer steps to act)
+world parameters: {'energy0': 1500}~
+genotype:~
+F(,FMlXmfQXmcMMFX[N, si:-999, 0:-1.112, 4:-0.901, 5:3.594, 9:0.941]X[N, si:-999, 0:4.509, 4:1, 5:-1.539, s:0][N, si:-999, 0:2.076, 3:1, 4:1][@, -1:10.696]cMXXX[N, 2:0.383][N, fo:0.169, s:-0.187, 0:5.421, si:999, -4:-3.196][N, -1:-1.428, -2:1.553][N, -1:-1.932, -2:9.217, -7:-4.342, -7:-2.905, -2:-2.675][N, -1:0.041, -2:10.895, -6:-4.342, -6:-2.905, -2:-1.412, 1:3.765, -3:1.599][N, -1:8.028, -2:-8.904, -1:-0.658, -3:3.123, in:0.8, -4:0.38][N, -1:8.028, -1:-0.658, -3:3.123, in:0.8, -4:0.38])~
+
+org:
+name:S05 sine f1 gene 0.843 r12
+info:~
+phase 3  run_id S05_shallow_bounce__de_nsga2_gene__f1__sinusoidal_bounce__r12_s1054
+seed 1054  best_fitness 0.8425899084817942
+evaluations 20513  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+LX[|, 1:8.888]X[*]mX[S][@, 1:-26.676][G](QFF(MX[T, rz:0, ry:-0.326, r:0.788, r:1, ry:0, r:0.752, r:0.86, r:1][N, -2:1.394, -1:2.746][@, -3:1.396, p:0.908]), (FQQX[@]), )~
+
+org:
+name:S02 sine f1 baseline 0.717 r6
+info:~
+phase 3  run_id S02_shortlife_bounce__nsga2_baseline__f1__sinusoidal_bounce__r06_s1048
+seed 1048  best_fitness 0.7168230455010112
+evaluations 20396  world flat_short_life
+Shorter lifespan: 60% of the base starting energy (fewer steps to act)
+world parameters: {'energy0': 1500}~
+genotype:~
+((qqqXX[G]X[N, s:-0.186, si:-999, s:0, s:0, 0:7.308, 0:-4.239, -1:-2.092, fo:0.04]MX[@, p:0.946, -2:-2.926]lX), lQX[N, -2:6.399, s:0, si:-999, s:0, s:-0.287, fo:0.04, 0:6.754, 0:0.317, -2:0.136, si:2]cRmXX[N, 2:4.421, 1:2.32][N, -4:13.557, -4:6.434, 2:2.092, 1:3.621, -1:-2.699][N, -5:15.064, -5:6.434, 2:-3.136, 1:0.116, -1:1][N, -3:14.183, -3:5.983, 1:3.498, -1:1.601][T][Gpart, rz:0.46, ry:0.54, rz:-0.444, ry:0][Gpart, rz:0.46, ry:0.54, rz:-0.444, ry:0][|, -10:1.363, p:0.216, p:0.25, p:0.25])~
+
+org:
+name:S05 sine f1 baseline 0.813 r12
+info:~
+phase 3  run_id S05_shallow_bounce__nsga2_baseline__f1__sinusoidal_bounce__r12_s1054
+seed 1054  best_fitness 0.8128086762447897
+evaluations 20908  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+(((((q(XL(((M(Ml(lX)), X)), rX[@,1:1]), LlmmXX, fffXXrXFX[G][*][|, -2:10.516, r:0.896,p:0.25]X[G]))), )), )~
+
+org:
+name:S02 sine f1 simpleEA 0.700 r4
+info:~
+phase 3  run_id S02_shortlife_bounce__simple_ea__f1__sinusoidal_bounce__r04_s1046
+seed 1046  best_fitness 0.7000501134624787
+evaluations 26203  world flat_short_life
+Shorter lifespan: 60% of the base starting energy (fewer steps to act)
+world parameters: {'energy0': 1500}~
+genotype:~
+(RRMccX[|, 1:7.036][S], QmcX[T][T][@, 1:10.89, p:0.836]mfX[N, 0:-9.267, -3:10.892, -3:-2.525, 0:3.797, in:0.8, fo:0.73])~
+
+org:
+name:S05 sine f1 simpleEA 0.641 r11
+info:~
+phase 3  run_id S05_shallow_bounce__simple_ea__f1__sinusoidal_bounce__r11_s1053
+seed 1053  best_fitness 0.6409609778589063
+evaluations 26819  world shallow_water
+Water 0.5 deep: bodies partly submerged, buoyancy + drag
+world parameters: {'water_level': 0.5}~
+genotype:~
+(fXX[G][|, -1:10.084, r:0.988, p:0.25, r:1,r:1]XrmX, X[@, -2:12.133,p:1])~
+
+org:
+name:S01 line f0 adaptive 0.891 r17
+info:~
+phase 3  run_id S01_flat_line__adaptive_de_nsga2__f0__straight_line_cog__r17_s1059
+seed 1059  best_fitness 0.8909868559438735
+evaluations 19828  world flat_reference
+Standard evaluation world (the Phase 1/2 training world)
+world parameters: reference world~
+genotype:~
+//0
+p:0.354, 0.311, -0.351, fr=0.44, ing=0.394
+p:-0.035, -0.578, 0.181, fr=0.59, ing=0.26
+p:-0.82, -0.714, -1.002
+j:1, 0, stif=0.972, rotstif=0.933
+j:2, 0
+j:2, 1
+n:j=0, d=G
+n:j=0, d=@:p=0.811
+c:1, 0, -9.269~
+
+org:
+name:S06 line f0 adaptive 0.639 r10
+info:~
+phase 3  run_id S06_deepwater_line__adaptive_de_nsga2__f0__straight_line_cog__r10_s1052
+seed 1052  best_fitness 0.6387498988432201
+evaluations 19859  world deep_water
+Water 3.0 deep: fully aquatic, agents must swim
+world parameters: {'water_level': 3.0}~
+genotype:~
+//0
+p:3.404, 2.256, 2.295, fr=0.47
+p:2.682, 1.138, 1.642, fr=0.337, ing=0.364
+p:4.473, 0.848, 1.54, ing=0.48
+j:1, 2, stif=0.781, rotstif=0.968
+j:2, 0, stif=0.84, rotstif=0.847
+n:j=1, d="|:p=0.316, r=0.819"
+n:j=0, d=G
+c:0, 1, -3.34~
+
+org:
+name:S08 line f0 adaptive 0.561 r19
+info:~
+phase 3  run_id S08_hill_line__adaptive_de_nsga2__f0__straight_line_cog__r19_s1061
+seed 1061  best_fitness 0.5612479130101545
+evaluations 21710  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+//0
+p:1.5436308465798376, -0.7632967806970019, 1.8534694893472718, fr=0.608, ing=0.37
+p:1.0988144711082493, 0.9138604343366716, 0.8592451141819819, fr=0.407, ing=0.434
+p:0.601, -0.536, -0.425, ing=0.056
+p:0.40262626855715533, -0.2590247190829872, -0.5143668752576755, fr=0.676, ing=0.455
+p:1.2005782044799698, -0.7281138314120152, -0.27076653352426794, fr=0.424, ing=0.269
+j:1, 0, stif=0.938, rotstif=0.603
+j:1, 3
+j:2, 1, stif=0.952, rotstif=0.901
+j:3, 2, stif=0.912
+j:2, 4, stif=0.92
+n:j=0, d=G
+n:j=0, d=@
+n:j=2, d=|:p=0.245
+n:p=2, d=Gpart:rz=-0.376
+c:1, 0, -1.511~
+
+org:
+name:S01 line f0 baseline 0.896 r14
+info:~
+phase 3  run_id S01_flat_line__nsga2_baseline__f0__straight_line_cog__r14_s1056
+seed 1056  best_fitness 0.8963709634022461
+evaluations 20337  world flat_reference
+Standard evaluation world (the Phase 1/2 training world)
+world parameters: reference world~
+genotype:~
+//0
+p:2.055, 0.908, -0.021, fr=1.598, ing=0.109
+p:0.774, -0.121, 0.917, fr=1.241
+p:2.541, 0.787, 0.762
+p:2.171, -0.023, 1.545, fr=0.477
+j:2, 0
+j:0, 3, stif=0.987, rotstif=0.714
+j:1, 0, stif=0.92, rotstif=0.725
+j:1, 3, stif=0.797
+j:3, 2
+n:p=0, d="T:r=0.98, ry=0.585, rz=0.493"
+n:j=1, d=@:p=0.905
+c:1, 0, -6.776~
+
+org:
+name:S06 line f0 baseline 0.625 r18
+info:~
+phase 3  run_id S06_deepwater_line__nsga2_baseline__f0__straight_line_cog__r18_s1060
+seed 1060  best_fitness 0.6249188592304318
+evaluations 21148  world deep_water
+Water 3.0 deep: fully aquatic, agents must swim
+world parameters: {'water_level': 3.0}~
+genotype:~
+//0
+p:-0.18964445573920607, 0.33970097753920786, -0.2027358199856626, fr=0.652, ing=0.318
+p:-0.20286729866185227, 0.3414102356938726, -0.18961317795958466, fr=0.255, ing=0.142
+p:-0.18271693568547742, 0.3352204772283843, -0.21089920961162112, fr=0.255, ing=0.415
+p:0.05452090483142458, 0.3002056921165287, -0.5040644174332547, fr=0.462, ing=0.155
+p:1.25, -0.069, -0.658, fr=1.021, ing=0.168
+p:-1.254, -0.477, 1.625, fr=0.362, ing=0.339
+p:-0.677, -0.41, 1.543, fr=0.456, ing=0.393
+p:-0.393, -0.15, 2.135
+p:-0.113, -0.244, 0.065, fr=0.606, ing=0.281
+p:-1.303, -0.539, 1.667
+p:-1.263, -0.256, -1.374
+j:1, 4, stif=0.96, rotstif=0.783
+j:4, 8, stif=0.977, rotstif=0.937
+j:4, 0, stif=0.922, rotstif=0.984
+j:3, 2, stif=0.92, rotstif=0.783
+j:1, 6, stif=0.778
+j:1, 3, rotstif=0.983
+j:5, 6, stif=0.95
+j:7, 5, rotstif=0.818
+j:9, 5
+j:10, 8
+n:j=0, d=G
+n:j=1, d=@
+n:j=3, d=G
+n:j=4, d=@
+n:
+c:3, 2, -2.318~
+
+org:
+name:S08 line f0 baseline 0.617 r16
+info:~
+phase 3  run_id S08_hill_line__nsga2_baseline__f0__straight_line_cog__r16_s1058
+seed 1058  best_fitness 0.6173238133349368
+evaluations 22144  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+//0
+p:-0.07773265102348592, -0.11352873207033753, -0.7979789108613664, fr=0.234
+p:0.3787626051106505, -0.08457988689492496, -0.6408883868130337, fr=0.036, ing=0.197
+p:0.8074859947394584, -0.32187925371219683, -1.3397458945758747, fr=1.342, ing=0.307
+p:0.246, 0.86, -0.954, fr=0.108
+p:1.6354167987548853, -0.591244046706881, 1.1097862906415061
+p:1.24649343331676, 0.5139284673130554, 0.3063389815807871, fr=0.084, ing=0.368
+p:1.1705544177092355, 0.9941932584965989, 0.12153248508033165, fr=0.084, ing=0.368
+p:0.4130444627461096, -0.526664282906931, -0.47161668338756524, fr=1.098, ing=0.167
+p:-0.08100615835725367, -0.3061132800920239, -1.42045691517788, fr=0.501, ing=0.204
+p:0.10121140694321173, -0.22508548714287513, -0.8686033777445088
+p:-0.23766655447851015, 0.7626968800562827, -0.23115451272321685, fr=0.729, ing=0.322
+p:-0.7994922831868503, 0.4549670112864119, -1.0123356070633285, ing=0.4
+p:-1.2166103301266238, 0.5471201775668706, -0.0352541867039996, fr=1.528
+p:-0.9383809211988756, -0.24457818165612188, -0.329385028286186, fr=0.417, ing=0.259
+p:-0.8809891069015121, -0.4214430398854782, -0.7569912257668174, fr=0.226, ing=0.286
+p:-1.5563771375642124, -0.2110752637073599, -0.32676444422026163, fr=0.255, ing=0.315
+p:-0.929811701008197, -1.0583798193665612, -1.1925425458360448, fr=0.682, ing=0.245
+j:2, 10, rotstif=0.979
+j:10, 0, stif=0.839, rotstif=0.778
+j:7, 11
+j:6, 0, stif=0.876, rotstif=0.815
+j:8, 12, rotstif=0.992
+j:7, 12
+j:7, 14
+j:7, 15
+j:0, 1, stif=0.895, rotstif=0.897
+j:0, 7, stif=0.839, rotstif=0.778
+j:14, 8, stif=0.841, rotstif=0.778
+j:16, 8, stif=0.839, rotstif=0.85
+j:16, 2, stif=0.918, rotstif=0.984
+j:2, 0, stif=0.876, rotstif=0.815
+j:7, 10, stif=0.991, rotstif=0.906
+j:10, 1, stif=0.966, rotstif=0.976
+j:6, 10, stif=0.968, rotstif=0.832
+j:9, 6
+j:9, 2
+j:5, 9, stif=0.957, rotstif=0.899
+j:7, 6, stif=0.864, rotstif=0.894
+j:7, 2, stif=0.864
+j:1, 6, stif=0.957, rotstif=0.844
+j:3, 1, rotstif=0.902
+j:2, 6
+j:5, 1, stif=0.925, rotstif=0.899
+j:1, 2
+j:5, 2, stif=0.957, rotstif=0.899
+j:4, 7
+j:4, 5
+j:16, 12
+j:11, 14
+j:13, 11, rotstif=0.817
+j:11, 12, stif=0.981
+j:14, 12
+j:13, 12
+j:16, 14, rotstif=0.877
+j:15, 8, stif=0.839, rotstif=0.778
+j:16, 15, rotstif=0.877
+j:14, 13
+n:j=1, d=@
+n:j=2, d=|:r=0.994
+n:j=5, d=|
+n:j=6, d=|
+n:j=7, d=|
+n:j=9, d=@
+n:j=9, d=|:r=0.801
+n:j=10, d=|:r=0.801
+n:j=11, d=@:p=0.97
+n:j=11, d=|:r=0.998
+n:j=12, d=|:p=0.24
+n:j=13, d=@
+n:p=1, d="T:ry=0.939, rz=-0.542"
+n:j=27, d="|:p=0.133, r=0.917"
+n:p=8, d=S
+n:j=37, d=|:r=0.801
+n:p=13, d="T:ry=0.939, rz=-0.542"
+n:j=37, d=@:p=0.986
+n:j=39, d=|
+n:j=5, d=@:p=0.921~
+
+org:
+name:S01 line f0 simpleEA 0.904 r13
+info:~
+phase 3  run_id S01_flat_line__simple_ea__f0__straight_line_cog__r13_s1055
+seed 1055  best_fitness 0.9037378921593916
+evaluations 26951  world flat_reference
+Standard evaluation world (the Phase 1/2 training world)
+world parameters: reference world~
+genotype:~
+//0
+p:-0.1561917548585808, -1.0827282305718577, 0.29060048620044443, fr=0.326, ing=0.198
+p:fr=0.076, ing=0.134
+p:-0.177, 0.683, -0.648, ing=0.696
+j:0, 1, stif=0.683, rotstif=0.534
+j:1, 2, stif=0.626, rotstif=0.656
+n:j=0, d=G
+n:j=0, d=@:p=0.993
+n:p=2, d="Gpart:ry=1.655, rz=0.691"
+n:p=1, d=T:ry=-2.319
+n:j=0, d=G
+n:p=0, d=T:ry=2.171
+n:p=0, d=T
+n:j=1, d=G
+n:d="N:in=0.0, s=0.108"
+n:d=*
+n:
+n:
+c:1, 0, -12.555
+c:8, 7, 1.759
+c:10, 7, 0.704
+c:10, 3, -0.919
+c:10, 4, 1.219
+c:11, 3, 0.518~
+
+org:
+name:S06 line f0 simpleEA 0.813 r14
+info:~
+phase 3  run_id S06_deepwater_line__simple_ea__f0__straight_line_cog__r14_s1056
+seed 1056  best_fitness 0.8131392343624521
+evaluations 27114  world deep_water
+Water 3.0 deep: fully aquatic, agents must swim
+world parameters: {'water_level': 3.0}~
+genotype:~
+//0
+p:0.159, -0.025, -0.017, fr=1.604, ing=0.406
+p:1.649, -0.023, -0.654, fr=0.21, ing=0.284
+p:1.785, 0.104, -0.662, fr=0.087, ing=0.114
+p:2.678, 0.651, -1.744, fr=0.464, ing=0.294
+p:2.248, 0.237, -0.781, fr=0.611, ing=0.514
+p:3.885, 1.363, -0.629, fr=0.245, ing=0.528
+p:3.176, 1.12, -1.182, fr=0.969, ing=0.257
+j:3, 1, stif=0.678, rotstif=0.789
+j:0, 1, stif=0.355, rotstif=0.636
+j:2, 1, stif=0.991, rotstif=0.969
+j:4, 2, stif=0.576, rotstif=0.768
+j:5, 4, stif=0.968, rotstif=0.694
+j:6, 1, stif=0.863, rotstif=0.856
+n:j=2, d=G
+n:j=2, d=@:p=0.983
+n:j=1, d=@:p=0.873
+n:j=0, d=G
+n:j=5, d=@:p=0.834
+n:j=4, d="|:p=0.258, r=0.973"
+n:j=0, d=@
+n:p=2, d=S
+n:
+n:
+n:j=0, d=G
+n:p=6, d=T:r=0.974
+n:
+n:
+n:p=2, d=T:r=0.953
+n:j=4, d=G
+n:j=4, d=@
+c:1, 0, -0.793
+c:2, 0, 1.095
+c:4, 0, 0.398
+c:5, 8, -0.369
+c:6, 3, 4.303
+c:8, 0, -0.343
+c:9, 12, -1.334
+c:12, 14, -1.778
+c:12, 15, -0.647
+c:12, 7, -0.207
+c:13, 11, -1.338~
+
+org:
+name:S08 line f0 simpleEA 0.634 r13
+info:~
+phase 3  run_id S08_hill_line__simple_ea__f0__straight_line_cog__r13_s1055
+seed 1055  best_fitness 0.6339987045089991
+evaluations 27074  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+//0
+p:fr=0.007, ing=0.475
+p:0.841, -0.14, 0.698, fr=0.304, ing=0.228
+p:0.5732382786497099, 1.5521662882055214, -0.3335410576609532, fr=1.487, ing=0.052
+p:-0.7941141913099292, 0.9290532307945397, 0.2705344328432613, fr=0.213, ing=0.325
+p:0.867, -0.401, 1.483, ing=0.302
+j:1, 0, stif=0.92, rotstif=0.848
+j:2, 0, stif=0.989, rotstif=0.902
+j:3, 1, stif=0.969, rotstif=0.597
+j:4, 1, rotstif=0.656
+n:j=0, d=@:p=0.867
+n:p=3, d=Gpart
+n:j=1, d="|:p=0.354, r=0.998"
+n:p=3, d=S
+n:j=1, d=G
+n:
+n:d=N:in=0.945
+n:d=*
+n:p=4, d=Gpart
+n:j=2, d=G
+n:d=*
+n:d="N:in=0.945, si=999.0, s=0.017"
+c:0, 1, -3.009
+c:2, 1, 3.753
+c:11, 5, -3.259
+c:11, 9, 2.807~
+
+org:
+name:S01 line f1 adaptive 0.895 r11
+info:~
+phase 3  run_id S01_flat_line__adaptive_de_nsga2__f1__straight_line_cog__r11_s1053
+seed 1053  best_fitness 0.8953127634472514
+evaluations 20273  world flat_reference
+Standard evaluation world (the Phase 1/2 training world)
+world parameters: reference world~
+genotype:~
+LCLLLMMXFfqX[Gpart]FX[|]X[|, 1:3.75][G]qX~
+
+org:
+name:S06 line f1 adaptive 0.911 r10
+info:~
+phase 3  run_id S06_deepwater_line__adaptive_de_nsga2__f1__straight_line_cog__r10_s1052
+seed 1052  best_fitness 0.9110886521218121
+evaluations 20828  world deep_water
+Water 3.0 deep: fully aquatic, agents must swim
+world parameters: {'water_level': 3.0}~
+genotype:~
+XqXX [N,0:-4.943,in:0.8,in:0.8,4:1]XX[@, p:0.93, p:0.487, p:0.947, p:0.908, p:0.963, p:1, p:0.871]rXX[N, 3:-1.85]fX[|, 1:3.28, r:0.987, p:0.25][N, 1:4.009, 1:1.492, 1:3.34, 1:-2.161, 1:1.26,si:2,in:0.8][N, 1:8.666, 1:2.006, 1:1.894, 1:-0.306, 1:0.479][N, 1:5.265, 1:4.131, 1:1.048, 1:-6.106,si:2][Gpart][N, 1:1.497, 1:-3.3, 1:4.333, 1:0.458,in:0.8,s:0,0:-3.429][N, 1:2.122, 1:4.231, 1:2.958, 1:4.876, in:0.8, s:0, 0:1][N, 1:3.686, 1:-2.867, 1:-1.88, -2:5.518, 1:-1.53, -5:7.308][N, -2:6.081][Gpart]~
+
+org:
+name:S08 line f1 adaptive 0.618 r9
+info:~
+phase 3  run_id S08_hill_line__adaptive_de_nsga2__f1__straight_line_cog__r09_s1051
+seed 1051  best_fitness 0.6183883560781712
+evaluations 20044  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+(mRLX[Gpart]MFX[*][|, 1:10.463]lX[N, -3:1], , , FLX)~
+
+org:
+name:S01 line f1 baseline 0.870 r4
+info:~
+phase 3  run_id S01_flat_line__nsga2_baseline__f1__straight_line_cog__r04_s1046
+seed 1046  best_fitness 0.8698822108915033
+evaluations 19376  world flat_reference
+Standard evaluation world (the Phase 1/2 training world)
+world parameters: reference world~
+genotype:~
+(L(rrLX[G][|, 1:10.634]FCX[Gpart, ry:0.731]),FXX)~
+
+org:
+name:S06 line f1 baseline 0.912 r1
+info:~
+phase 3  run_id S06_deepwater_line__nsga2_baseline__f1__straight_line_cog__r01_s1043
+seed 1043  best_fitness 0.912068826964016
+evaluations 20801  world deep_water
+Water 3.0 deep: fully aquatic, agents must swim
+world parameters: {'water_level': 3.0}~
+genotype:~
+XrmqfXmLXRMX[*]mLXX[N, si:2, 0:6.664, in:0.94, -1:-5.514, -1:-4.723, s:0]XMX[S]QXXX[Gpart, rz:-0.205, rz:-0.871, ry:-0.847, ry:0, ry:0, ry:0, rz:0]X[|, -1:2.829]X~
+
+org:
+name:S08 line f1 baseline 0.612 r9
+info:~
+phase 3  run_id S08_hill_line__nsga2_baseline__f1__straight_line_cog__r09_s1051
+seed 1051  best_fitness 0.6115142689869045
+evaluations 20997  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+(((, ccLMQCLcXFmFFX[@, p:0.956, 1:-1.143,p:1]rcMXX[Gpart, ry:0.585,rz:0][*][|])), )~
+
+org:
+name:S01 line f1 simpleEA 0.804 r8
+info:~
+phase 3  run_id S01_flat_line__simple_ea__f1__straight_line_cog__r08_s1050
+seed 1050  best_fitness 0.8037015276999686
+evaluations 26324  world flat_reference
+Standard evaluation world (the Phase 1/2 training world)
+world parameters: reference world~
+genotype:~
+cX[|,3:4.295]fX[@, 2:-8.667][|, 1:-11.078][T,r:1]~
+
+org:
+name:S06 line f1 simpleEA 0.877 r18
+info:~
+phase 3  run_id S06_deepwater_line__simple_ea__f1__straight_line_cog__r18_s1060
+seed 1060  best_fitness 0.8768445098514156
+evaluations 26429  world deep_water
+Water 3.0 deep: fully aquatic, agents must swim
+world parameters: {'water_level': 3.0}~
+genotype:~
+RRLX[G]FX[N,0:1.551,-1:-2.011][|,2:0.291][G]mlX[Gpart][@][|, -3:0.5, p:0.741,r:1]~
+
+org:
+name:S08 line f1 simpleEA 0.591 r9
+info:~
+phase 3  run_id S08_hill_line__simple_ea__f1__straight_line_cog__r09_s1051
+seed 1051  best_fitness 0.5911434911847069
+evaluations 26531  world hill_slope
+Smooth heightfield rising 2 units along +x (uphill locomotion)
+world parameters: {'world_type': 2, 'world_size': 20, 'world_map': 'M 5 5 0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2  0 0.5 1 1.5 2'}~
+genotype:~
+RCMX[G][N, 0:14.971, 0:3.101, -1:-2.056, 3:5.608, 0:1.596,5:1][N, 0:11.421, 0:6.317, 5:7.625, 5:-11.853, 2:-4.115, -1:-8.386, 3:-0.953, s:0, 2:-0.901, 5:-1.793][|, 1:-15.57, p:0.828, r:0.744][Gpart, rz:0][Gpart, rz:-0.096, rz:0, ry:1.413]mlX[N,-2:1][*][@, -4:1.163]~
+
+org:
+name:S04 vel f0 adaptive 37.724 r4
+info:~
+phase 3  run_id S04_highgrav_forward__adaptive_de_nsga2__f0__velocity_forward__r04_s1046
+seed 1046  best_fitness 37.72405567898239
+evaluations 21124  world high_gravity
+1.5x gravity -- heavier bodies, harder to lift the COG
+world parameters: {'gravity': 1.5}~
+genotype:~
+//0
+p:1.2601064660139336, 0.5566883203315842, -0.0691332737266176, ing=0.409
+p:0.4289474410698808, -0.756765408927274, 0.3819013122096677, fr=0.119, ing=0.189
+p:-0.13877810410830937, 0.9194335129209519, 1.3131611683974946, fr=2.699, ing=0.345
+j:0, 2, stif=0.957, rotstif=0.935
+j:1, 0, stif=0.738, rotstif=0.845
+j:2, 1, stif=0.964, rotstif=0.827
+n:j=0, d=@:p=0.816
+n:j=0, d=G
+n:j=0, d=G
+n:j=0, d="|:p=0.406, r=0.993"
+n:j=1, d="|:p=0.406, r=0.993"
+n:j=1, d=G
+n:j=1, d=@:p=0.88
+n:p=0, d=S
+n:j=1, d=G
+n:d=*
+n:p=0, d=S
+n:d=*
+n:p=1, d=S
+n:p=1, d=S
+n:j=2, d=@:p=0.816
+n:j=2, d=G
+n:j=2, d=G
+n:j=2, d="|:p=0.335, r=0.993"
+n:d=*
+n:d="N:in=0.0, si=999.0"
+c:0, 2, 0.765
+c:3, 1, 5.335
+c:4, 5, 4.744
+c:6, 7, -0.093
+c:14, 16, 1.06
+c:17, 15, 4.744
+c:19, 12, -3.424
+c:19, 15, -11.45
+c:19, 16, 6.369
+c:19, 17, 3.471
+c:19, 18, -2.518
+c:19, 14, 0.502
+c:19, 19, 1.437
+c:19, 9, -4.726
+c:19, 11, 3.381
+c:19, 2, -5.116
+c:19, 6, -1.451
+c:19, 13, 6.852
+c:19, 5, 2.633~
+
+org:
+name:S07 vel f0 adaptive 19.172 r8
+info:~
+phase 3  run_id S07_blocks_forward__adaptive_de_nsga2__f0__velocity_forward__r08_s1050
+seed 1050  best_fitness 19.171578723985352
+evaluations 21340  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+//0
+p:0.283, -0.472, -0.204, fr=1.027, ing=0.285
+p:0.09868299018248261, -2.095468202503728, -0.2885313053884566
+p:-0.003, -2.197, -0.085, ing=0.308
+p:1.0098538099739165, -2.332148820452571, -0.10041455365106022, fr=0.525, ing=0.118
+j:3, 0, stif=0.872, rotstif=0.955
+j:0, 2, stif=0.817, rotstif=0.957
+j:1, 3, stif=0.953, rotstif=0.954
+j:0, 1, rotstif=0.974
+n:j=0, d=|
+n:j=0, d=@:p=0.976
+n:p=0, d="Gpart:ry=-1.547, rz=2.354"
+n:d=*
+n:j=1, d=@
+n:j=3, d=|
+n:j=1, d=G
+n:p=3, d=Gpart
+n:p=0, d=T:rz=-0.819
+n:p=0, d=S
+n:j=2, d=G
+n:p=0, d=S
+n:d=N:s=0.017
+c:0, 3, -2.104
+c:1, 2, 3.538
+c:4, 3, 2.771
+c:5, 3, -1.116
+c:12, 6, 2.599
+c:12, 7, -1.551
+c:12, 8, 0.963
+c:12, 9, 3.884
+c:12, 10, 0.053
+c:12, 11, -1.34~
+
+org:
+name:S10 vel f0 adaptive 56.607 r15
+info:~
+phase 3  run_id S10_rotated_forward__adaptive_de_nsga2__f0__velocity_forward__r15_s1057
+seed 1057  best_fitness 56.60712398735747
+evaluations 21853  world rotated_lowgrav
+Target direction rotated 90 deg (= agent born rotated -90 deg) at gravity 0.8
+world parameters: {'gravity': 0.8, 'target_heading_deg': 90}~
+genotype:~
+//0
+p:0.3007982789286878, 0.559095393790878, -0.35604627722452975, fr=0.819, ing=0.333
+p:0.345, 0.453, -0.346, fr=0.267, ing=0.025
+p:0.20398817477667308, 0.39538384375169283, -0.6997339691519417, fr=0.669, ing=0.433
+p:0.9792768680738042, 1.5351986982608608, 0.5826053997282056, fr=0.733, ing=0.297
+p:0.889, -0.346, 1.0, fr=1.498, ing=0.04
+p:1.351, -0.088, 0.639, ing=0.184
+p:1.030280104812491, 1.0369561842719495, -0.2207999745060112, fr=1.316
+j:4, 0, stif=0.928, rotstif=0.723
+j:3, 0, stif=0.947
+j:1, 3
+j:4, 2, rotstif=0.857
+j:4, 1, stif=0.887
+j:1, 0, stif=0.69, rotstif=0.97
+j:5, 0, stif=0.928, rotstif=0.893
+j:2, 3, stif=0.998, rotstif=0.777
+j:4, 6, stif=0.93, rotstif=0.877
+j:4, 3
+j:5, 3
+n:j=3, d=@:p=0.713
+n:j=3, d=|
+n:j=5, d=G
+n:d=*
+n:p=1, d=S
+n:j=8, d=@:p=0.796
+n:p=3, d=T
+c:0, 3, 0.649
+c:5, 6, 2.575~
+
+org:
+name:S04 vel f0 baseline 56.557 r13
+info:~
+phase 3  run_id S04_highgrav_forward__nsga2_baseline__f0__velocity_forward__r13_s1055
+seed 1055  best_fitness 56.55734705237492
+evaluations 21470  world high_gravity
+1.5x gravity -- heavier bodies, harder to lift the COG
+world parameters: {'gravity': 1.5}~
+genotype:~
+//0
+p:-0.5577847012759134, -0.37265293485979134, -0.6519578836942553, fr=0.248, ing=0.574
+p:-0.521, -0.481, -0.408, fr=2.328, ing=0.063
+p:0.3232936939412123, -0.019001325736035524, 2.0081068607404986
+p:-0.26247483315521225, -0.5589345793247332, 0.2220654336308585, fr=1.003
+p:-1.047, -2.259, -0.203, fr=0.243, ing=0.281
+j:3, 0, rotstif=0.775
+j:3, 4
+j:4, 0
+j:4, 1, stif=0.947
+j:3, 2
+n:j=1, d=G
+n:p=0, d="Gpart:ry=-0.573, rz=-2.41"
+n:d="N:in=0.0, si=999.0, s=-0.322"
+n:p=0, d=Gpart:ry=-0.315
+n:p=1, d=Gpart:ry=-1.159
+n:j=3, d=|:r=0.97
+n:d="N:in=0.922, si=999.0, s=-0.322"
+n:d="N:in=0.0, si=999.0, s=-0.322"
+n:d="N:in=0.0, si=999.0, s=-0.322"
+n:d=*
+c:2, 3, 1.111
+c:5, 2, 0.663
+c:6, 9, -0.038~
+
+org:
+name:S07 vel f0 baseline 14.781 r12
+info:~
+phase 3  run_id S07_blocks_forward__nsga2_baseline__f0__velocity_forward__r12_s1054
+seed 1054  best_fitness 14.780763884354723
+evaluations 21161  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+//0
+p:0.09202251104518533, 0.7526576510297369, -0.3579102882980947, fr=0.973, ing=0.073
+p:0.11644408648171023, 1.074261913739349, -0.6091753159499348, fr=1.118, ing=0.001
+p:0.35398325169749323, 0.9504846163678711, -0.6885531688015571, ing=0.217
+p:0.176213864449571, 0.79893452945184, -0.8786523073482377, fr=0.389
+p:2.09, 0.817, -0.414, fr=0.943, ing=0.09
+j:4, 2, rotstif=0.979
+j:4, 1, stif=0.751, rotstif=0.977
+j:4, 0, stif=0.856, rotstif=0.928
+j:2, 3, rotstif=0.986
+j:4, 3, stif=0.751, rotstif=0.977
+j:3, 0, stif=0.912, rotstif=0.999
+n:d="N:in=0.0, fo=0.947, si=-999.0, s=-0.099"
+n:p=0, d=T:r=0.939
+n:j=1, d=|:r=0.985
+n:j=2, d="|:p=0.553, r=0.932"
+n:j=4, d=|:r=0.985
+n:d="N:fo=0.947, si=-999.0, s=-0.099"
+n:d="N:fo=0.947, si=-999.0, s=-0.099"
+c:2, 1, 7.243~
+
+org:
+name:S10 vel f0 baseline 45.704 r19
+info:~
+phase 3  run_id S10_rotated_forward__nsga2_baseline__f0__velocity_forward__r19_s1061
+seed 1061  best_fitness 45.70426131708507
+evaluations 20942  world rotated_lowgrav
+Target direction rotated 90 deg (= agent born rotated -90 deg) at gravity 0.8
+world parameters: {'gravity': 0.8, 'target_heading_deg': 90}~
+genotype:~
+//0
+p:1.1811562871303773, 0.5038007637547444, 0.15395779779011315, fr=0.266, ing=0.567
+p:1.294020466231152, 0.5087564898951302, -0.20140398619601288, fr=1.387, ing=0.816
+p:0.081, -1.067, -0.413, fr=0.978, ing=0.205
+p:1.098, -0.061, -0.125, fr=1.074, ing=0.54
+p:2.3645805222993337, 0.7045620184009103, 1.2199492988636675, fr=0.294, ing=0.568
+j:2, 0, stif=0.978, rotstif=0.87
+j:2, 1, stif=0.962, rotstif=0.077
+j:3, 4, stif=0.439, rotstif=0.702
+j:2, 3, stif=0.962, rotstif=0.459
+n:j=1, d=@:p=0.995
+n:p=0, d=Gpart
+n:j=0, d=@
+n:d=*
+n:j=3, d=@:p=0.995
+n:d=*
+c:0, 1, -1.875
+c:2, 1, 1.817~
+
+org:
+name:S04 vel f0 simpleEA 62.117 r5
+info:~
+phase 3  run_id S04_highgrav_forward__simple_ea__f0__velocity_forward__r05_s1047
+seed 1047  best_fitness 62.117132316207886
+evaluations 27244  world high_gravity
+1.5x gravity -- heavier bodies, harder to lift the COG
+world parameters: {'gravity': 1.5}~
+genotype:~
+//0
+p:0.4410099297183043, -0.3095148653929476, -0.5532821986232168, fr=1.216, ing=0.58
+p:1.0808744745209673, -0.510740631842882, -0.25360164952457787, fr=1.884, ing=0.304
+p:0.369, -0.719, -1.2, fr=0.312, ing=0.229
+p:0.8908121372411908, -0.5451871811583473, -0.1935319103000792, fr=0.535, ing=0.144
+p:0.596, -1.419, -1.968, fr=0.868, ing=0.132
+j:4, 1, stif=0.8, rotstif=0.216
+j:0, 4, stif=0.854, rotstif=0.84
+j:2, 1, stif=0.874, rotstif=0.897
+j:4, 3, stif=0.945, rotstif=0.708
+n:j=0, d=@:p=0.909
+n:p=0, d="Gpart:ry=0.592, rz=0.866"
+n:p=0, d=Gpart:rz=-1.624
+n:j=2, d=@
+n:j=0, d=G
+n:p=3, d="T:r=0.894, ry=-0.768, rz=-0.745"
+n:p=4, d="T:r=0.916, ry=0.126"
+n:p=4, d="T:r=0.99, ry=-2.379"
+n:p=3, d=Gpart:rz=-0.4
+n:d=*
+n:p=1, d=Gpart:ry=0.496
+n:j=2, d=G
+n:p=4, d=T
+n:j=2, d=G
+n:p=0, d=Gpart:rz=-0.058
+n:p=4, d=S
+n:d="N:in=0.0, fo=1.0, si=-999.0, s=0.155"
+c:0, 1, -1.791
+c:3, 2, 5.402
+c:16, 1, 3.534
+c:16, 9, -2.203
+c:16, 10, 0.82
+c:16, 2, -3.85
+c:16, 12, 0.101
+c:16, 13, -1.034
+c:16, 11, 0.087
+c:16, 4, -0.097~
+
+org:
+name:S07 vel f0 simpleEA 28.267 r11
+info:~
+phase 3  run_id S07_blocks_forward__simple_ea__f0__velocity_forward__r11_s1053
+seed 1053  best_fitness 28.267108484272242
+evaluations 27235  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+//0
+p:0.769, 0.761, 0.192, fr=1.903, ing=0.291
+p:-0.003, -0.001, 2.242, fr=1.417, ing=0.487
+p:-0.00032408829959229557, -0.00010802943319743186, 0.24220198922864222, fr=0.646, ing=0.48
+p:0.42522304114096465, 0.44064192468800517, 0.33916593540218054, fr=0.156, ing=0.587
+p:1.4495896979509784, 0.4071085192114725, -1.378026104858029, ing=0.866
+j:1, 3, stif=0.972, rotstif=0.702
+j:1, 2, stif=0.792, rotstif=0.703
+j:0, 3, stif=0.993, rotstif=0.526
+j:4, 3, stif=0.992, rotstif=0.914
+n:j=1, d=@:p=0.791
+n:j=2, d=|:r=0.874
+n:j=2, d=@:p=0.966
+n:p=3, d="Gpart:ry=0.244, rz=-0.031"
+n:p=4, d="Gpart:ry=1.564, rz=0.457"
+n:j=2, d=G
+n:p=4, d=S
+n:p=0, d=Gpart
+n:p=2, d=T:ry=1.043
+n:p=1, d=T
+n:d=*
+n:d=*
+n:p=0, d=Gpart
+n:
+c:0, 5, -2.142
+c:1, 3, -0.893
+c:2, 3, -2.163
+c:13, 6, 0.28
+c:13, 5, 2.541
+c:13, 3, 0.684
+c:13, 10, -3.547~
+
+org:
+name:S10 vel f0 simpleEA 113.194 r11
+info:~
+phase 3  run_id S10_rotated_forward__simple_ea__f0__velocity_forward__r11_s1053
+seed 1053  best_fitness 113.19405009599406
+evaluations 27160  world rotated_lowgrav
+Target direction rotated 90 deg (= agent born rotated -90 deg) at gravity 0.8
+world parameters: {'gravity': 0.8, 'target_heading_deg': 90}~
+genotype:~
+//0
+p:0.157, 0.061, -0.125, fr=0.505, ing=0.407
+p:1.0, fr=0.033, ing=0.931
+p:0.411, -0.457, -0.165, fr=0.219, ing=0.281
+p:0.715995869768456, -0.47636805337860494, 1.7183554276888373, fr=0.981, ing=0.39
+p:0.092, -1.015, 0.817, fr=1.483, ing=0.445
+j:2, 1, stif=0.94, rotstif=0.644
+j:3, 1, stif=0.938, rotstif=0.826
+j:0, 3, stif=0.951, rotstif=0.165
+j:4, 0, stif=0.713, rotstif=0.973
+n:p=3, d=T:rz=0.496
+n:j=2, d=@:p=0.984
+n:j=1, d=@:p=0.991
+n:j=0, d=G
+n:p=1, d=T:r=0.885
+n:d="N:si=-999.0, s=0.045"
+n:d=*
+n:p=0, d=T
+n:d=N:si=-2.45
+n:p=3, d=Gpart
+n:d="N:in=0.0, si=4.643"
+n:p=0, d=Gpart
+n:j=3, d=|
+c:1, 0, 1.717
+c:2, 0, -1.58
+c:5, 0, 2.512
+c:5, 6, 0.487
+c:8, 3, 5.119
+c:8, 6, 1.082
+c:8, 8, 5.23
+c:10, 3, 4.737
+c:10, 7, 1.951
+c:10, 9, -1.048
+c:10, 11, -4.504
+c:10, 0, 0.019
+c:10, 4, -0.789
+c:12, 5, -1.026~
+
+org:
+name:S04 vel f1 adaptive 71.046 r12
+info:~
+phase 3  run_id S04_highgrav_forward__adaptive_de_nsga2__f1__velocity_forward__r12_s1054
+seed 1054  best_fitness 71.04594340095724
+evaluations 19990  world high_gravity
+1.5x gravity -- heavier bodies, harder to lift the COG
+world parameters: {'gravity': 1.5}~
+genotype:~
+c(l((LRXFfMMfX[|, 2:12.914], X[@][Gpart])), rX[N][Gpart, rz:0])~
+
+org:
+name:S07 vel f1 adaptive 16.071 r15
+info:~
+phase 3  run_id S07_blocks_forward__adaptive_de_nsga2__f1__velocity_forward__r15_s1057
+seed 1057  best_fitness 16.07121067471103
+evaluations 20232  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+((Q(, (LX[N, 2:11.428, 0:0.356]X[|, r:1, p:0.411, r:0.989, r:1, -1:-1.46]), rRX[T, rz:0][@, p:1], CX)), , )~
+
+org:
+name:S10 vel f1 adaptive 76.556 r12
+info:~
+phase 3  run_id S10_rotated_forward__adaptive_de_nsga2__f1__velocity_forward__r12_s1054
+seed 1054  best_fitness 76.55571433766745
+evaluations 20653  world rotated_lowgrav
+Target direction rotated 90 deg (= agent born rotated -90 deg) at gravity 0.8
+world parameters: {'gravity': 0.8, 'target_heading_deg': 90}~
+genotype:~
+(FXMMXrLqX[Gpart, rz:-2.602, rz:0.691, ry:0.594, rz:-3.964, rz:-2.845, rz:1.343,rz:0]rLqX[Gpart, rz:0,rz:0][|, -2:10.302],  CX[T], CX)~
+
+org:
+name:S04 vel f1 baseline 67.189 r12
+info:~
+phase 3  run_id S04_highgrav_forward__nsga2_baseline__f1__velocity_forward__r12_s1054
+seed 1054  best_fitness 67.18929613407559
+evaluations 19994  world high_gravity
+1.5x gravity -- heavier bodies, harder to lift the COG
+world parameters: {'gravity': 1.5}~
+genotype:~
+((LLLfLfqX[Gpart, ry:0.594], LCFXrX[*][Gpart]MLFFX[Gpart][|, -4:4.085]), LLCCX)~
+
+org:
+name:S07 vel f1 baseline 48.224 r12
+info:~
+phase 3  run_id S07_blocks_forward__nsga2_baseline__f1__velocity_forward__r12_s1054
+seed 1054  best_fitness 48.22405304960211
+evaluations 20551  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+(((((RL(MXFfX[|, 1:8.624])),X[Gpart, rz:0.251]),X, ) ))~
+
+org:
+name:S10 vel f1 baseline 76.790 r2
+info:~
+phase 3  run_id S10_rotated_forward__nsga2_baseline__f1__velocity_forward__r02_s1044
+seed 1044  best_fitness 76.79037339617302
+evaluations 20707  world rotated_lowgrav
+Target direction rotated 90 deg (= agent born rotated -90 deg) at gravity 0.8
+world parameters: {'gravity': 0.8, 'target_heading_deg': 90}~
+genotype:~
+((((mMMMMRXLLLXX[*][|, 1:20.484]))), X[Gpart])~
+
+org:
+name:S04 vel f1 simpleEA 29.190 r19
+info:~
+phase 3  run_id S04_highgrav_forward__simple_ea__f1__velocity_forward__r19_s1061
+seed 1061  best_fitness 29.18992552715209
+evaluations 26803  world high_gravity
+1.5x gravity -- heavier bodies, harder to lift the COG
+world parameters: {'gravity': 1.5}~
+genotype:~
+fffLX[N, 4:-21.666, 5:2.697, 4:3.714,s:0][N, 9:-11.079, 0:10.538, 4:5.574, 9:0.735]fX[S]MLXLLLLFMX[S][N, 6:3.936, -1:4.085, 0:2.611][Gpart, ry:1.704, rz:-0.32][|, -1:1.398, r:0.936, r:0.511, r:1]FFFX[@, -2:1][|, 1:-27.71, p:0.063, p:0.398, p:0.25][*][*]rCFX~
+
+org:
+name:S07 vel f1 simpleEA 6.516 r6
+info:~
+phase 3  run_id S07_blocks_forward__simple_ea__f1__velocity_forward__r06_s1048
+seed 1048  best_fitness 6.516114562237696
+evaluations 26783  world blocks_terrain
+Blocky rough terrain (5x5 blocks of +-1 height) on a 20x20 world
+world parameters: {'world_type': 1, 'world_size': 20, 'world_map': 'm 5 5 56565 65656 56565 65656 56565'}~
+genotype:~
+RX[N, 2:3.284, 3:0.39]RlX[N, 1:-14.498, 0:-6.673, 0:9.807, s:0.303, -1:-2.513][N, 0:13.295, in:0.8, s:0, 1:-8.379, 2:-2.202]X[N, s:0, 3:-0.221, 3:1.202,1:0.178,1:1]FMX[N, -3:3.858][|, 1:7.905, r:0.912, p:0.377, p:0.25][Gpart, rz:0.344, rz:0][Gpart, rz:0.344][Gpart, rz:0.344, rz:0]~
+
+org:
+name:S10 vel f1 simpleEA 39.198 r5
+info:~
+phase 3  run_id S10_rotated_forward__simple_ea__f1__velocity_forward__r05_s1047
+seed 1047  best_fitness 39.19809812650968
+evaluations 26798  world rotated_lowgrav
+Target direction rotated 90 deg (= agent born rotated -90 deg) at gravity 0.8
+world parameters: {'gravity': 0.8, 'target_heading_deg': 90}~
+genotype:~
+XLXrMCX[|,5:5.366,r:0.986][N,4:-5.689,2:0.866,3:2.288,s:0][@]RLCCCX[N,-2:10.762,-2:5.315,si:2][N,fo:0.154,-3:-0.489,-3:1.054][Gpart,rz:-1.031,rz:0]~
+
