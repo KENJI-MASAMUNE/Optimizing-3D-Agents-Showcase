@@ -15,9 +15,8 @@ parts); red: the recent path of its centre of gravity.*
 
 | | |
 |---|---|
-| Main code repository | [KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition](https://github.com/KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition) (private until the report has been marked; ask a team member for access) |
+| Main code repository | [KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition](https://github.com/KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition) 
 | Poster (Poster Day, 29 October 2026) | [poster/COS700_Poster.pdf](poster/COS700_Poster.pdf) |
-| Research report | [report/COS700_Research_Report.pdf](report/COS700_Research_Report.pdf) |
 | Best evolved creatures | [Phase 1](genotypes/best_phase1.gen) and [Phase 3](genotypes/best_phase3.gen) genotypes (open in Framsticks, see below) |
 
 ## In one minute
