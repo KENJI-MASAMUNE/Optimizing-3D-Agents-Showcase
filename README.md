@@ -15,11 +15,11 @@ parts); red: the recent path of its centre of gravity.*
 
 | | |
 |---|---|
-| Main code repository | [KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition](https://github.com/KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition) 
+| Main code repository | [KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition](https://github.com/KENJI-MASAMUNE/Optimizing-3D-Agents---GECCO-Competition) (private until the report has been marked; ask a team member for access) |
 | Poster (Poster Day, 29 October 2026) | [poster/COS700_Poster.pdf](poster/COS700_Poster.pdf) |
 | Best evolved creatures | [Phase 1](genotypes/best_phase1.gen) and [Phase 3](genotypes/best_phase3.gen) genotypes (open in Framsticks, see below) |
 
-## In one minute
+## Intro
 
 **Problem.** We evolve virtual creatures in the [Framsticks](https://www.framsticks.com)
 simulator whose centre of gravity (COG) must move in a required way: follow a straight line,
@@ -84,6 +84,32 @@ graph-only hybrid crowding (w = 0) were the weakest choices.
 ![Phase 3 heatmap](figures/p3_heat.png)
 
 ![Retention in unseen worlds](figures/p3_ret.png)
+
+#### The Phase 3 creatures in their worlds
+
+![Phase 3 winners replayed in their own worlds](media/phase3_worlds.gif)
+
+![The other eight Phase 3 settings](media/phase3_worlds_2.gif)
+
+*All 14 reconstructed settings across the two animations. Each panel shows the best run of that
+setting's winning algorithm (highest mean over 20 runs), replayed in its own world: terrain in
+brown, water as a blue plane. Replays show behaviour, not exact scores; some (S07, S12, S13,
+S14) score lower in replay than they did during evolution.*
+
+#### Videos
+
+- [Phase 1: the six tasks](media/phase1_tasks.mp4) (1 min): each task's winning algorithm,
+  shown large, with the task, the scores and a top view or height plot of the creature's path.
+- [Phase 3: all 14 settings](media/phase3_all_settings.mp4) (2 min): each setting's winner in
+  its own world, with the world's gravity and water level.
+
+#### Generalisation: one creature, five worlds
+
+![The S01 straight-line walker in its training world and four held-out worlds](media/generalisation.gif)
+
+*The Adaptive DE-NSGA-II (f1) straight-line walker from S01 follows the green target line in the
+flat world it evolved in (fitness 0.90), but drifts off it in the four held-out worlds
+(0.14–0.19). This is the generalisation problem behind the 32–40% retention above.*
 
 ## Watch the creatures yourself
 
