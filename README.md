@@ -98,10 +98,10 @@ S14) score lower in replay than they did during evolution.*
 
 #### Videos
 
-- [Phase 1: the six tasks](media/phase1_tasks.mp4) (1 min): each task's winning algorithm,
-  shown large, with the task, the scores and a top view or height plot of the creature's path.
-- [Phase 3: all 14 settings](media/phase3_all_settings.mp4) (2 min): each setting's winner in
-  its own world, with the world's gravity and water level.
+## Phase 1: The six tasks
+  https://github.com/user-attachments/assets/45793a38-ce1a-43f4-88ef-e9756f692498
+## Phase 3 All 14 settings
+  https://github.com/user-attachments/assets/a57e2c9e-37b1-424c-afad-eb681bbbacf9
 
 #### Generalisation: one creature, five worlds
 
